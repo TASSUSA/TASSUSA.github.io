@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div id="page">
+	{% include header.html %}
+	
+	<div id="main-content">
+		<div class="container"> 
+			<div class="row">
+				<div id="primary" class="content-area col-sm-12">
+					<section id="content" role="main" class="clearfix">
+						<!-- TODO: ADD BREADCRUMBS -->
+						<div id="content-wrap">
+							<h1 class="page-title">
+								{{ page.real_name }}<br>
+								<small>{{ page.job_title }}</small>
+							</h1>
+							{{ content }}
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

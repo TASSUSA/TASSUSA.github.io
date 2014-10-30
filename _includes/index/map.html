@@ -1,0 +1,55 @@
+<div id="map" class="map">
+	<!--<iframe width="100%" height="100%" scroll="no" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://mapsengine.google.com/map/embed?mid=zsFsERRO3dk8.kJ8E27VrR51s"></iframe>-->
+	<!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Hawaii+Tax%2C+Accounting+%26+Software+Services,+Market+Street,+Hilo,+CA&amp;aq=0&amp;oq=Hawaii&2cTASS&amp;hq=Hawaii+Tax%2C+Accounting+%26+Software+Services%2C+LLC,+614+Kilauea+Ave,+Hilo,+HI+96720&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>-->
+	<div id="map-canvas" style="height:100%;width:100%"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvCpL1EvyKHAbIIE5OICIWSLyrpNeYoD4&sensor=false&libraries=places"></script>
+	<script type="text/javascript">
+		var style_array = [{"featureType":"water","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]}];
+		var pyrmont = new google.maps.LatLng(19.7177867,-155.0808236);
+		var myOptions = {
+				zoom: 17,
+				center: pyrmont,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				styles: style_array,
+				scrollwheel: false
+		};
+		
+		var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);      
+		var request = {
+			location: pyrmont,
+			radius: '500',
+			query: 'Hawaii TASS'
+		};
+		
+		var infoWindow = new google.maps.InfoWindow({
+			content: ""
+		});
+		
+		var service = new google.maps.places.PlacesService(map);
+		service.textSearch(request, function (results, status) {
+			if (status == google.maps.places.PlacesServiceStatus.OK) {
+				for (var i = 0; i < results.length; i++) {
+					createMarker(results[i]);
+				}
+			}
+		});
+		
+		function createMarker(place) {
+			//console.log(place);
+			var latlng = new google.maps.LatLng(place.geometry.location.k,place.geometry.location.A),
+					name = place.name,
+					address = place.formatted_address;
+			var html = "<font face = 'arial'>" + "<b>" + name + "</b> <br/>" + address + "<br/>" + "</font>";
+			var marker = new google.maps.Marker({
+				position: latlng,
+				map: map,
+				title: name
+			});
+			google.maps.event.addListener(marker, 'click', function() {
+				infoWindow.setContent(html);
+				infoWindow.open(map, marker);
+			});
+			//markers.push(marker);
+		}
+	</script>
+</div>

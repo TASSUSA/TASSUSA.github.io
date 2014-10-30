@@ -1,0 +1,20 @@
+- id: home
+  label: "Home"
+
+- id: mobile
+  label: "Mobile Apps"
+
+- id: web
+  label: "Web"
+
+- id: games
+  label: "Game Dev."
+
+- id: database
+  label: "Data Mining"
+
+- id: meet_us
+  label: "About"
+
+- id: contact
+  label: "Contact"

@@ -1,0 +1,11 @@
+<ul class="members-list">
+	{% for member in site.pages %}
+		{% if member.layout == 'member' %}
+			<li>
+				<h2>
+					<a class="post-link" href="{{ member.url | prepend: site.baseurl }}">{{ member.real_name }}</a>
+				</h2>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
