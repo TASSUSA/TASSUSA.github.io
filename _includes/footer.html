@@ -16,3 +16,6 @@
 		</div>
 	</div>
 </footer>
+{% for script in site.data.scripts %}
+	<script crossorigin="anonymous" src="{{script.url | prepend: "/assets/js/"| prepend: site.baseurl }}" type="text/javascript"></script>
+{% endfor %}
