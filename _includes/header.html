@@ -7,7 +7,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand scroll" href="{{ "/" | prepend: site.baseurl }}">TASS USA</a>
+			{% if page.nav == "index" %}
+			<a class="navbar-brand scroll" href="#home">TASS USA</a>
+			{% else %}
+			<a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">TASS USA</a>
+			{% endif %}
 			<!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
 		</div>
 
@@ -19,7 +23,7 @@
 				<li><a href="#{{ nav.id }}" class="scroll">{{ nav.label }}</a></li>
 			{% endfor %}
 			{% else %}
-				<li><a href="{{ "/" | prepend: site.baseurl }}" class="scroll">Home</a></li>
+				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
 			{% endif %}
 			</ul>
 		</div><!-- /.navbar-collapse -->
