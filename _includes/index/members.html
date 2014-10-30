@@ -1,11 +1,23 @@
-<ul class="members-list">
-	{% for member in site.pages %}
-		{% if member.layout == 'member' %}
-			<li>
-				<h2>
-					<a class="post-link" href="{{ member.url | prepend: site.baseurl }}">{{ member.real_name }}</a>
-				</h2>
-			</li>
-		{% endif %}
+{% assign members = (site.members | sort: 'sort') %}
+<div class="view-who-we-are">
+	<div class="view-content">
+	{% for member in members %}
+		<div class="who-we-are-row col-md-3 col-sm-4 col-xs-6">
+			<div class="member-picture">
+				<a href="{{ member.url }}">
+					<img typeof="foaf:Image" src="{{ member.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ member.real_name }}">
+				</a>
+			</div>
+			<div class="member-real-name">
+				<a href="{{ member.url }}">{{ member.real_name }}</a>
+			</div>
+			<div class="member-job-title">
+				{{ member.job_title }}
+			</div>
+			<div class="member-email">
+				<a href="mailto:{{ member.email }}">{{ member.email }}</a>
+			</div>
+		</div>
 	{% endfor %}
-</ul>
+	</div>
+</div>

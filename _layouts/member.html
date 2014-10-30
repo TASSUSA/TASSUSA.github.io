@@ -9,6 +9,9 @@ layout: default
 					<section id="content" role="main" class="clearfix">
 						<!-- TODO: ADD BREADCRUMBS -->
 						<div id="content-wrap">
+							<div class="page-picture">
+								<img typeof="foaf:Image" src="{{ page.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ page.real_name }}">
+							</div>
 							<h1 class="page-title">
 								{{ page.real_name }}<br>
 								<small>{{ page.job_title }}</small>
