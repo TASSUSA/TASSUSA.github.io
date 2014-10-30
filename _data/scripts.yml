@@ -1,0 +1,7 @@
+- url: "jquery-1.11.1.min.js"
+- url: "jquery.flexslider.js"
+- url: "slide.js"
+- url: "bootstrap.min.js"
+- url: "superfish.js"
+- url: "mobilemenu.js"
+- url: "custom.js"
