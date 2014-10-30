@@ -23,7 +23,7 @@
 				<li><a href="#{{ nav.id }}" class="scroll">{{ nav.label }}</a></li>
 			{% endfor %}
 			{% else %}
-				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+				<li><a href="{{ "/" | prepend: site.baseurl }}"><i class="fa fa-arrow-left"></i> Go back to home screen</a></li>
 			{% endif %}
 			</ul>
 		</div><!-- /.navbar-collapse -->
