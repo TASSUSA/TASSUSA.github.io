@@ -11,9 +11,8 @@ body {
 }
 
 /* Links */
-a, .nav-item{
+a{
   color: #4794b3;
-  cursor: pointer;
 }
 a:visited {
   color: #4794b3;
@@ -24,6 +23,16 @@ a:active,
 .nav-item:hover {
   color: #1c6c8c;
   text-decoration: none;
+}
+
+.nav-item{
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-item.flex-active {
+  background: rgba(220,220,220,.5);
+  border-radius: 15px;
 }
 
 /*set max img width*/
