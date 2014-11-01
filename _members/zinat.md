@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 0
+sort: 1
 real_name: "Zinat Rahman"
 job_title: "Director, HR and Marketing"
 email: "Zinat@TASSUSA.com"
