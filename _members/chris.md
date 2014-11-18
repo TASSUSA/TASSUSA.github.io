@@ -10,7 +10,7 @@ picture: "chris.png"
 Mr. Christopher Nelson works in the TASS USA as a Game Developer. He is an expert in developing games including the popular CaveRealms, SkyLands, and the Sky-Test sub-game. 
 
 #### Education:
-- BS Students in Computer Science at the University of Hawaii-Hilo
+- BS Student in Computer Science and Engineering at the University of Hawaii-Hilo
 
 #### Game Development Focus:
 - Experience with using the Unity3D game development platform, using both C# and Unity's variant on JavaScript, UnityScript.
