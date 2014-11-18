@@ -12,6 +12,9 @@ github_username: TASSUSA
 # Build settings
 markdown: kramdown
 
+# Define custom collections
 collections:
-  members:
+  members: # The members of TASS USA
     output: true
+
+exclude: ["START SERVER", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
