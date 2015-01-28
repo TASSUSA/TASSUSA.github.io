@@ -40,6 +40,48 @@
 			}
 		},
 		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 409 files for \"members\"\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_config.yml:\n   15  # Define custom collections\n   16  collections:\n   17:   members: # The members of TASS USA\n   18      output: true\n   19  \n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\index.html:\n  692  		<div class=\"row\">\n  693  			<div class=\"col-md-12 text-center\">\n  694: 				{% include index/members.html %}\n  695  			</div>\n  696  		</div>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\c25a525a7fe8fd1a433e3a392a73b23a83745880\\_base.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\c25a525a7fe8fd1a433e3a392a73b23a83745880\\_extra.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\c25a525a7fe8fd1a433e3a392a73b23a83745880\\_layout.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\c25a525a7fe8fd1a433e3a392a73b23a83745880\\_syntax-highlighting.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\dbd4fe60927dfe0b7317aee2a43e1a724e370fec\\_base.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\dbd4fe60927dfe0b7317aee2a43e1a724e370fec\\_extra.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\.sass-cache\\dbd4fe60927dfe0b7317aee2a43e1a724e370fec\\_syntax-highlighting.scssc:\n    <binary>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_includes\\index\\members.html:\n    1: {% assign members = (site.members | sort: 'sort') %}\n    2  <div class=\"view-who-we-are\">\n    3  	<div class=\"view-content\">\n    4: 	{% for member in members %}\n    5  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n    6  			<div class=\"member-picture\">\n    7  				<a href=\"{{ member.url }}\">\n    8: 					<img typeof=\"foaf:Image\" src=\"{{ member.picture | prepend: \"/members/images/\" | prepend: site.baseurl }}\" alt=\"{{ member.real_name }}\">\n    9  				</a>\n   10  			</div>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_layouts\\member.html:\n   11  						<div id=\"content-wrap\">\n   12  							<div class=\"page-picture\">\n   13: 								<img typeof=\"foaf:Image\" src=\"{{ page.picture | prepend: \"/members/images/\" | prepend: site.baseurl }}\" alt=\"{{ page.real_name }}\">\n   14  							</div>\n   15  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_members\\zinat.md:\n    8  ---\n    9  #### Background:\n   10: Mrs. Zinat Rahman oversees the human resources and marketing tasks at TASS USA. She has worked as a project investigator to an International Organization and managed 20+ team members.\n   11  \n   12  #### Education:\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\index.html:\n  833  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  834  			<div class=\"member-picture\">\n  835: 				<a href=\"/members/shawon.html\">\n  836: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1-1412896482.jpg\" alt=\"Dr. Shawon Rahman\">\n  837  				</a>\n  838  			</div>\n  839  			<div class=\"member-real-name\">\n  840: 				<a href=\"/members/shawon.html\">Dr. Shawon Rahman</a>\n  841  			</div>\n  842  			<div class=\"member-job-title\">\n  ...\n  850  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  851  			<div class=\"member-picture\">\n  852: 				<a href=\"/members/andrew.html\">\n  853: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1496-1384399691.jpg\" alt=\"Andrew Wessels\">\n  854  				</a>\n  855  			</div>\n  856  			<div class=\"member-real-name\">\n  857: 				<a href=\"/members/andrew.html\">Andrew Wessels</a>\n  858  			</div>\n  859  			<div class=\"member-job-title\">\n  ...\n  867  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  868  			<div class=\"member-picture\">\n  869: 				<a href=\"/members/zinat.html\">\n  870: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1518-1404961093.jpg\" alt=\"Zinat Rahman\">\n  871  				</a>\n  872  			</div>\n  873  			<div class=\"member-real-name\">\n  874: 				<a href=\"/members/zinat.html\">Zinat Rahman</a>\n  875  			</div>\n  876  			<div class=\"member-job-title\">\n  ...\n  884  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  885  			<div class=\"member-picture\">\n  886: 				<a href=\"/members/morshed.html\">\n  887: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1517-1396059512.png\" alt=\"Morshed Osmani\">\n  888  				</a>\n  889  			</div>\n  890  			<div class=\"member-real-name\">\n  891: 				<a href=\"/members/morshed.html\">Morshed Osmani</a>\n  892  			</div>\n  893  			<div class=\"member-job-title\">\n  ...\n  901  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  902  			<div class=\"member-picture\">\n  903: 				<a href=\"/members/nayeem.html\">\n  904: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1529-1408845035.png\" alt=\"Nayeem Ahmad\">\n  905  				</a>\n  906  			</div>\n  907  			<div class=\"member-real-name\">\n  908: 				<a href=\"/members/nayeem.html\">Nayeem Ahmad</a>\n  909  			</div>\n  910  			<div class=\"member-job-title\">\n  ...\n  918  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  919  			<div class=\"member-picture\">\n  920: 				<a href=\"/members/salahuddin.html\">\n  921: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1537-1412910726.jpg\" alt=\"Salahuddin Aziz\">\n  922  				</a>\n  923  			</div>\n  924  			<div class=\"member-real-name\">\n  925: 				<a href=\"/members/salahuddin.html\">Salahuddin Aziz</a>\n  926  			</div>\n  927  			<div class=\"member-job-title\">\n  ...\n  935  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  936  			<div class=\"member-picture\">\n  937: 				<a href=\"/members/monir.html\">\n  938: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1516-1384825675.png\" alt=\"Monir Zaman\">\n  939  				</a>\n  940  			</div>\n  941  			<div class=\"member-real-name\">\n  942: 				<a href=\"/members/monir.html\">Monir Zaman</a>\n  943  			</div>\n  944  			<div class=\"member-job-title\">\n  ...\n  952  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  953  			<div class=\"member-picture\">\n  954: 				<a href=\"/members/saki.html\">\n  955: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1535-1396314299.png\" alt=\"Saiful (Saki) Islam\">\n  956  				</a>\n  957  			</div>\n  958  			<div class=\"member-real-name\">\n  959: 				<a href=\"/members/saki.html\">Saiful (Saki) Islam</a>\n  960  			</div>\n  961  			<div class=\"member-job-title\">\n  ...\n  969  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  970  			<div class=\"member-picture\">\n  971: 				<a href=\"/members/rizve.html\">\n  972: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1536-1401830628.jpg\" alt=\"Rizve Hasan\">\n  973  				</a>\n  974  			</div>\n  975  			<div class=\"member-real-name\">\n  976: 				<a href=\"/members/rizve.html\">Rizve Hasan</a>\n  977  			</div>\n  978  			<div class=\"member-job-title\">\n  ...\n  986  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n  987  			<div class=\"member-picture\">\n  988: 				<a href=\"/members/chris.html\">\n  989: 					<img typeof=\"foaf:Image\" src=\"/members/images/chris.png\" alt=\"Christopher Nelson\">\n  990  				</a>\n  991  			</div>\n  992  			<div class=\"member-real-name\">\n  993: 				<a href=\"/members/chris.html\">Christopher Nelson</a>\n  994  			</div>\n  995  			<div class=\"member-job-title\">\n  ...\n 1003  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n 1004  			<div class=\"member-picture\">\n 1005: 				<a href=\"/members/shufean.html\">\n 1006: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1519-1396059150.png\" alt=\"Abu Shufean\">\n 1007  				</a>\n 1008  			</div>\n 1009  			<div class=\"member-real-name\">\n 1010: 				<a href=\"/members/shufean.html\">Abu Shufean</a>\n 1011  			</div>\n 1012  			<div class=\"member-job-title\">\n ....\n 1020  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n 1021  			<div class=\"member-picture\">\n 1022: 				<a href=\"/members/siniva.html\">\n 1023: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1534-1394157783.jpg\" alt=\"Siniva Pota\">\n 1024  				</a>\n 1025  			</div>\n 1026  			<div class=\"member-real-name\">\n 1027: 				<a href=\"/members/siniva.html\">Siniva Pota</a>\n 1028  			</div>\n 1029  			<div class=\"member-job-title\">\n ....\n 1037  		<div class=\"who-we-are-row col-md-3 col-sm-4 col-xs-6\">\n 1038  			<div class=\"member-picture\">\n 1039: 				<a href=\"/members/rono.html\">\n 1040: 					<img typeof=\"foaf:Image\" src=\"/members/images/picture-1520-1408490917.png\" alt=\"Syed (Rono) Ahmed\">\n 1041  				</a>\n 1042  			</div>\n 1043  			<div class=\"member-real-name\">\n 1044: 				<a href=\"/members/rono.html\">Syed (Rono) Ahmed</a>\n 1045  			</div>\n 1046  			<div class=\"member-job-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\demos\\2d\\Snap.svg\\demos\\animated-game\\js\\seedrandom.js:\n  213    // The \"g\" method returns the next (count) outputs as one number.\n  214    (me.g = function(count) {\n  215:     // Using instance members instead of closure state nearly doubles speed.\n  216      var t, r = 0,\n  217          i = me.i, j = me.j, s = me.S;\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\andrew.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/andrew.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1496-1384399691.jpg\" alt=\"Andrew Wessels\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\chris.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/chris.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/chris.png\" alt=\"Christopher Nelson\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\monir.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/monir.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1516-1384825675.png\" alt=\"Monir Zaman\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\morshed.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/morshed.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1517-1396059512.png\" alt=\"Morshed Osmani\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\nayeem.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/nayeem.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1529-1408845035.png\" alt=\"Nayeem Ahmad\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\rizve.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/rizve.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1536-1401830628.jpg\" alt=\"Rizve Hasan\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\rono.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/rono.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1520-1408490917.png\" alt=\"Syed (Rono) Ahmed\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\saki.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/saki.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1535-1396314299.png\" alt=\"Saiful (Saki) Islam\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\salahuddin.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/salahuddin.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1537-1412910726.jpg\" alt=\"Salahuddin Aziz\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\shawon.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/shawon.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1-1412896482.jpg\" alt=\"Dr. Shawon Rahman\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\shufean.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/shufean.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1519-1396059150.png\" alt=\"Abu Shufean\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\siniva.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/siniva.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1534-1394157783.jpg\" alt=\"Siniva Pota\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\_site\\members\\zinat.html:\n   15      <link rel=\"stylesheet\" href=\"/assets/css/flexslider.css\">\n   16      <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n   17:     <link rel=\"canonical\" href=\"http://tassusa.com/members/zinat.html\">\n   18      <link rel=\"icon\" type=\"image/gif\" href=\"favicon.gif\">\n   19  </head>\n   ..\n   78  						<div id=\"content-wrap\">\n   79  							<div class=\"page-picture\">\n   80: 								<img typeof=\"foaf:Image\" src=\"/members/images/picture-1518-1404961093.jpg\" alt=\"Zinat Rahman\">\n   81  							</div>\n   82  							<h1 class=\"page-title\">\n   ..\n   85  							</h1>\n   86  							<h4 id=\"background\">Background:</h4>\n   87: <p>Mrs. Zinat Rahman oversees the human resources and marketing tasks at TASS USA. She has worked as a project investigator to an International Organization and managed 20+ team members.</p>\n   88  \n   89  <h4 id=\"education\">Education:</h4>\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\demos\\2d\\Snap.svg\\demos\\animated-game\\js\\seedrandom.js:\n  213    // The \"g\" method returns the next (count) outputs as one number.\n  214    (me.g = function(count) {\n  215:     // Using instance members instead of closure state nearly doubles speed.\n  216      var t, r = 0,\n  217          i = me.i, j = me.j, s = me.S;\n\nC:\\Users\\Andrew\\Work\\jekyll.tassusa\\demos\\2d\\Snap.svg\\demos\\snap-ad\\src\\.sass-cache\\7eb2e4ecfecd432261de95f74b5302c6e0956ac9\\screen.scssc:\n    <binary>\n\n85 matches across 29 files\n",
+			"settings":
+			{
+				"buffer_size": 17558,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_includes/index/members.html",
+			"settings":
+			{
+				"buffer_size": 735,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "demos/2d/Snap.svg/doc/fonts/stylesheet.css",
 			"settings":
 			{
@@ -51,7 +93,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 150.0,
+		"height": 196.0,
 		"selected_items":
 		[
 			[
@@ -243,7 +285,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 464.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -270,10 +312,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/Andrew/Work/jekyll.tassusa",
+		"/C/Users/Andrew/Work/jekyll.tassusa/_includes",
+		"/C/Users/Andrew/Work/jekyll.tassusa/_layouts",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_posts"
 	],
 	"file_history":
 	[
+		"/C/Users/Andrew/Dropbox/synergy.txt",
 		"/C/Users/Andrew/Work/jekyll.tassusa/demos/2d/index.html",
 		"/C/Users/Andrew/Work/jekyll.tassusa/demos/Biomanufacturing Demo.html",
 		"/C/Users/Andrew/Work/jekyll.tassusa/gemfile",
@@ -400,8 +445,7 @@
 		"/C/wamp/www/shopping/app/views/pages/forms/event.blade.php",
 		"/C/wamp/www/shopping/app/views/pages/forms/offer.blade.php",
 		"/C/wamp/www/shopping/public/upload/.gitignore",
-		"/C/wamp/www/shopping/public/upload/thumbnail/.gitignore",
-		"/C/wamp/www/shopping/public/upload/small/.gitignore"
+		"/C/wamp/www/shopping/public/upload/thumbnail/.gitignore"
 	],
 	"find":
 	{
@@ -425,6 +469,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"members",
 			"pyg",
 			"pygments",
 			"DrupalOAuthToken",
@@ -551,8 +596,7 @@
 			"header.jpg",
 			"header.js",
 			"leverage modern",
-			"shopping guru",
-			"service-item"
+			"shopping guru"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -698,7 +742,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -790,11 +834,786 @@
 						"translation.y": 747.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_config.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1083
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17558,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										148,
+										155
+									],
+									[
+										163,
+										170
+									],
+									[
+										365,
+										372
+									],
+									[
+										1344,
+										1351
+									],
+									[
+										1360,
+										1367
+									],
+									[
+										1484,
+										1491
+									],
+									[
+										1711,
+										1718
+									],
+									[
+										2030,
+										2037
+									],
+									[
+										2435,
+										2442
+									],
+									[
+										2655,
+										2662
+									],
+									[
+										2720,
+										2727
+									],
+									[
+										2881,
+										2888
+									],
+									[
+										3113,
+										3120
+									],
+									[
+										3178,
+										3185
+									],
+									[
+										3339,
+										3346
+									],
+									[
+										3568,
+										3575
+									],
+									[
+										3632,
+										3639
+									],
+									[
+										3791,
+										3798
+									],
+									[
+										4017,
+										4024
+									],
+									[
+										4083,
+										4090
+									],
+									[
+										4244,
+										4251
+									],
+									[
+										4474,
+										4481
+									],
+									[
+										4539,
+										4546
+									],
+									[
+										4698,
+										4705
+									],
+									[
+										4925,
+										4932
+									],
+									[
+										4994,
+										5001
+									],
+									[
+										5156,
+										5163
+									],
+									[
+										5390,
+										5397
+									],
+									[
+										5454,
+										5461
+									],
+									[
+										5612,
+										5619
+									],
+									[
+										5837,
+										5844
+									],
+									[
+										5900,
+										5907
+									],
+									[
+										6066,
+										6073
+									],
+									[
+										6298,
+										6305
+									],
+									[
+										6362,
+										6369
+									],
+									[
+										6520,
+										6527
+									],
+									[
+										6745,
+										6752
+									],
+									[
+										6809,
+										6816
+									],
+									[
+										6956,
+										6963
+									],
+									[
+										7188,
+										7195
+									],
+									[
+										7254,
+										7261
+									],
+									[
+										7412,
+										7419
+									],
+									[
+										7639,
+										7646
+									],
+									[
+										7704,
+										7711
+									],
+									[
+										7862,
+										7869
+									],
+									[
+										8088,
+										8095
+									],
+									[
+										8151,
+										8158
+									],
+									[
+										8315,
+										8322
+									],
+									[
+										8652,
+										8659
+									],
+									[
+										9031,
+										9038
+									],
+									[
+										9263,
+										9270
+									],
+									[
+										9641,
+										9648
+									],
+									[
+										9872,
+										9879
+									],
+									[
+										10236,
+										10243
+									],
+									[
+										10467,
+										10474
+									],
+									[
+										10844,
+										10851
+									],
+									[
+										11077,
+										11084
+									],
+									[
+										11456,
+										11463
+									],
+									[
+										11688,
+										11695
+									],
+									[
+										12064,
+										12071
+									],
+									[
+										12295,
+										12302
+									],
+									[
+										12669,
+										12676
+									],
+									[
+										12899,
+										12906
+									],
+									[
+										13279,
+										13286
+									],
+									[
+										13509,
+										13516
+									],
+									[
+										13897,
+										13904
+									],
+									[
+										14133,
+										14140
+									],
+									[
+										14513,
+										14520
+									],
+									[
+										14745,
+										14752
+									],
+									[
+										15125,
+										15132
+									],
+									[
+										15358,
+										15365
+									],
+									[
+										15734,
+										15741
+									],
+									[
+										15966,
+										15973
+									],
+									[
+										16341,
+										16348
+									],
+									[
+										16572,
+										16579
+									],
+									[
+										16957,
+										16964
+									],
+									[
+										17252,
+										17259
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1317,
+								1317
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/index/members.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "demos/2d/Snap.svg/doc/fonts/stylesheet.css",
 					"semi_transient": false,
 					"settings":
@@ -815,26 +1634,31 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -850,26 +1674,21 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -1236,7 +2055,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Andrew\\Work\\jekyll.tasstel\\jekyll.tasstel.sublime-project"
+				"C:\\wamp\\www\\getshoppingguru.com\\sites\\all\\themes\\c3bc\\c3bc.sublime-project"
 			]
 		],
 		"width": 380.0

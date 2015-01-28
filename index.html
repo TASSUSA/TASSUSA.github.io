@@ -465,11 +465,75 @@ nav: index
 	</div>
 </div>
 
-<div class="callout-7">
+<div id="drawing-viewport" class="paper-callout">
+	<canvas id="drawing" height="400"></canvas>
 	<div class="vert-text">
 		<p class="huge">Maximize User Engagement and Enjoyment</p>
 	</div>
 </div>
+<script>
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var canvas = document.getElementById('drawing');
+var viewport = document.getElementById('drawing-viewport');
+var ctx = canvas.getContext('2d');
+
+ctx.lineWidth = 1;
+ctx.lineJoin = ctx.lineCap = 'round';
+// ctx.strokeStyle = 'purple';
+
+
+var isDrawing, lastPoint;
+
+// canvas.onmousedown = function(e) {
+//   isDrawing = true;
+//   lastPoint = { x: e.clientX, y: e.clientY };
+// };
+
+// canvas.onmouseup = function() {
+//   isDrawing = false;
+// };
+
+var canvas_location = viewport.getBoundingClientRect();
+
+viewport.onmousemove = function(e) {
+	var newPoint = { x: e.layerX, y: e.layerY };
+	if (!isDrawing){
+		isDrawing = true;
+		lastPoint = newPoint;
+	};
+	ctx.beginPath();
+	ctx.strokeStyle = 'rgba(0,0,0,.25)';
+	
+	ctx.moveTo(lastPoint.x - getRandomInt(0, 2), lastPoint.y - getRandomInt(0, 2));
+	ctx.lineTo(newPoint.x - getRandomInt(0, 2), newPoint.y - getRandomInt(0, 2));
+	ctx.stroke();
+	
+	ctx.moveTo(lastPoint.x, lastPoint.y);
+	ctx.lineTo(newPoint.x, newPoint.y);
+	ctx.stroke();
+	
+	ctx.moveTo(lastPoint.x + getRandomInt(0, 2), lastPoint.y + getRandomInt(0, 2));
+	ctx.lineTo(newPoint.x + getRandomInt(0, 2), newPoint.y + getRandomInt(0, 2));
+	ctx.stroke();
+		
+	lastPoint = newPoint;
+};
+
+// resize the canvas to fill browser window dynamically
+window.addEventListener('resize', resizeCanvas, false);
+
+function resizeCanvas() {
+	canvas.width = window.innerWidth;
+	//canvas.height = window.innerHeight;
+}
+resizeCanvas();
+
+</script>
+
+
 
 <div id="games" class="blue-section">
 	<div class="container">
