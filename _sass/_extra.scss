@@ -1168,23 +1168,18 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   padding: 50px 0;
   color: white;
   text-shadow: 2px 2px #4794b3;
-}
 
-.blue-section a{
-  color: white;
-  -webkit-transition: color .15s, background .15s, font-size .25s;
-  transition: color .15s, background .15s, font-size .25s;
-}
-.blue-section small{
-  color: #eee;
-}
-
-.blue-section a:hover{
-  color: #0b506b;
-  text-shadow: 1px 1px #3d7f99;
-  font-size: 1.05em;
-  -webkit-transition: color .15s, background .15s, font-size .25s;
-  transition: color .15s, background .15s, font-size .25s;
+  a{
+    color: white;
+    -webkit-transition: color .15s, background .15s, font-size .25s;
+    transition: color .15s, background .15s, font-size .25s;
+    &:hover{
+      text-shadow: 1px 1px #0b506b;
+    }
+  }
+  small{
+    color: #eee;
+  }
 }
 
 .gray-section {
@@ -1395,40 +1390,37 @@ q > cite:before{
   line-height: 136px;
   vertical-align: middle;
   text-align: center;
-  -webkit-transition: color 1s, border-color 1s;
-  transition: color 1s, border-color 1s;
+  -webkit-transition: color .25s, border-color .25s, background .25s, transform .25s;
+  transition: color .25s, border-color .25s, background .25s, transform .25s;
+  background: rgba(255,255,255,.25);
 }
 
 a:hover .circle-icon {
-  background: rgba(255,255,255,.25);
+  background: rgba(255,255,255,.35);
+  border-color: #1c6c8c;
+  transform: scale(1.05);
+  -webkit-transition: color .5s, border-color .5s, background .5s, transform .5s;
+  transition: color .5s, border-color .5s, background .5s, transform .5s;
+}
+
+a:hover .circle-lock-icon{
+  color: #886790;
 }
 
 a:hover .circle-mobile-icon{
   color: #607780;
-  border-color: #1c6c8c;
-  -webkit-transition: color .75s, border-color .25s;
-  transition: color .75s, border-color .25s;
 }
 
 a:hover .circle-web-icon{
   color: #33c9ff;
-  border-color: #1c6c8c;
-  -webkit-transition: color .75s, border-color .25s;
-  transition: color .75s, border-color .25s;
 }
 
 a:hover .circle-game-icon{
   color: #e56767;
-  border-color: #1c6c8c;
-  -webkit-transition: color .75s, border-color .25s;
-  transition: color .75s, border-color .25s;
 }
 
 a:hover .circle-database-icon{
   color: #67e5e1;
-  border-color: #1c6c8c;
-  -webkit-transition: color .75s, border-color .25s;
-  transition: color .75s, border-color .25s;
 }
 
 a.btn{
@@ -1521,4 +1513,8 @@ img.rounded{
   max-width: 100%;
   height: auto;
   margin-top: 20px;
+}
+
+.nav-icons{
+  height: 250px;
 }
