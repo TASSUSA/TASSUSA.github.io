@@ -32,14 +32,19 @@
 	"buffers":
 	[
 		{
-			"contents": "---\nlayout: default\nnav: index\n---\n<div id=\"intro\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-8 col-md-offset-2 text-center\">\n				<h1>Our Services</h1>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-3 text-center\">\n				<div class=\"icon-item\">\n					<a href=\"#mobile\" class=\"scroll\">\n						<i class=\"circle-icon circle-mobile-icon fa fa-mobile\"></i>\n						<h4>\n							Mobile\n						</h4>\n						<div>Professional mobile app development</div>\n					</a>\n				</div>\n			</div>\n			<div class=\"col-sm-3 text-center\">\n				<div class=\"icon-item\">\n					<a href=\"#web\" class=\"scroll\">\n						<i class=\"circle-icon circle-web-icon fa fa-globe\"></i>\n						<h4>\n							Web\n						</h4>\n						<div>Web development</div>\n					</a>\n				</div>\n			</div>\n			<div class=\"col-sm-3 text-center\">\n				<div class=\"icon-item\">\n					<a href=\"#games\" class=\"scroll\">\n						<i class=\"circle-icon circle-game-icon fa fa-gamepad\"></i>\n						<h4>\n							Game Development\n						</h4>\n						<div>2D and 3D Game Development</div>\n					</a>\n				</div>\n			</div>\n			<div class=\"col-sm-3 text-center\">\n				<div class=\"icon-item\">\n					<a href=\"#database\" class=\"scroll\">\n						<i class=\"circle-icon circle-database-icon fa fa-database\"></i>\n						<h4>\n							Data Mining\n						</h4>\n						<div>Database Design, Development, and Data Mining</div>\n					</a>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<div class=\"mobile-cutout-bg\">\n	<div class=\"vert-text\">\n		<p class=\"huge\">Mobility to move forward</p>\n	</div>\n</div>\n\n<div id=\"mobile\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-10\">\n				<div class=\"row\">\n					<div class=\"col-md-8 col-md-offset-2 text-center\">\n						<h2>Mobile App Development</h2>\n						<hr>\n					</div>\n				</div>\n				<div class=\"row\">\n					<div class=\"col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-2 text-center\">\n						<div class=\"icon-item\">\n							<i class=\"giant-icon fa fa-android\"></i>\n							<h4>\n								Android<br>\n								<small></small>\n							</h4>\n						</div>\n					</div>\n					<div class=\"col-sm-4 col-md-2 text-center\">\n						<div class=\"icon-item\">\n							<i class=\"giant-icon fa fa-apple\"></i>\n							<h4>\n								iOS<br>\n								<small>iPhone, iPad</small>\n							</h4>\n						</div>\n					</div>\n					<div class=\"col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-0 text-center\">\n						<div class=\"icon-item\">\n							<i class=\"giant-icon fa fa-windows\"></i>\n							<h4>\n								Windows Phone<br>\n								<small></small>\n							</h4>\n						</div>\n					</div>\n					<div class=\"col-sm-4 col-md-2 text-center\">\n						<div class=\"icon-item\">\n							<i class=\"giant-icon fa fa-mobile\"></i>\n							<h4>\n								BlackBerry<br>\n								<small></small>\n							</h4>\n						</div>\n					</div>\n				</div>\n			</div>\n			<div class=\"col-md-2 hidden-sm hidden-xs phone\"></div>\n		</div>\n	</div>\n</div>\n\n<!--\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-8 col-md-offset-2 text-center\">\n				<q>\n					<big>You guys are the best!</big>\n					<cite>Someone Special</cite>\n				</q>\n			</div>\n		</div>\n	</div>\n</div>\n-->\n\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Developed Apps</h2>\n				<hr>\n			</div>\n		</div>\n		<div id=\"app-slides-nav\" class=\"row\">\n			<!-- <div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<a href=\"http://www.getshopsueyapp.com/\" target=\"_blank\">\n						<img src=\"{{ \"/assets/images/shopsuey.png\" | prepend: site.baseurl }}\" alt=\"Shopsuey\" height=\"144\" width=\"144\" />\n						<h4>ShopSuey</h4>\n					</a>\n					<a href=\"https://play.google.com/store/apps/details?id=aloha.shopsuey\" target=\"_blank\"><i class=\"download-icon fa fa-android\"></i></a>\n					<p class=\"description\">We have developed the Android version of the popular ShopSuey marketing app. ShopSuey is a revolutionary shopping app that allows users to find out what’s happening in malls or marketplaces all around them, in real time.</p>\n				</div>\n			</div> -->\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item icon-item\">\n					<img src=\"{{ \"/assets/images/shoppingguru.png\" | prepend: site.baseurl }}\" alt=\"Shopsuey\" height=\"144\" width=\"144\" />\n					<h4>ShoppingGuru</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item icon-item\">\n					<img src=\"{{ \"/assets/images/steinwall.png\" | prepend: site.baseurl }}\" alt=\"Steinwall Inc.\" height=\"144\" width=\"144\" />\n					<h4>Steinwall Plastic Matrix</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item icon-item\">\n					<img src=\"{{ \"/assets/images/chaos-answers.png\" | prepend: site.baseurl }}\" alt=\"Chaos Answers\" height=\"144\" width=\"144\" />\n					<h4>Chaos Answers</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item icon-item\">\n					<img src=\"{{ \"/assets/images/pimm.png\" | prepend: site.baseurl }}\" alt=\"Steinwall Inc.\" height=\"144\" width=\"144\" />\n					<h4>Steinwall PIMM iPad App</h4>\n				</div>\n			</div>\n		</div><!-- /.row -->\n		<div class=\"row\">\n			<div id=\"app-slides\" class=\"flexslider\">\n				<ul class=\"slides\">\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://getshoppingguru.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/shoppingguru.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://getshoppingguru.com/\" target=\"_blank\">\n								<h4>ShoppingGuru</h4>\n							</a>\n							<a href=\"https://play.google.com/store/apps/details?id=hawaiitass.shopping\" target=\"_blank\"><i class=\"download-icon fa fa-android\"></i></a>\n							<p>\n								Shopping Guru reinvents the users’ shopping experience in Bangladesh. It is a smarter way to shop that helps you save time and money.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://www.steinwall.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/steinwall.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://www.steinwall.com/\" target=\"_blank\">\n								<h4>Steinwall Plastic Matrix</h4>\n							</a>\n							<a href=\"https://play.google.com/store/apps/details?id=hawaiitass.android.resin&hl=en\" target=\"_blank\"><i class=\"download-icon fa fa-android\"></i></a>\n							<a href=\"https://itunes.apple.com/us/app/steinwall-plastic-matrix/id566245668?mt=8\" target=\"_blank\"><i class=\"download-icon fa fa-apple\"></i></a>\n							<a href=\"http://www.windowsphone.com/en-us/store/app/plastic-matrix/d7b542ec-4390-4f87-af26-eb01f9a6b096\" target=\"_blank\"><i class=\"download-icon fa fa-windows\"></i></a>\n							<p>\n								Our team developed an iOS, Android, and Windows Phone app for Stienwall, Inc. The application helps users in the difficult task of determine what plastic is best suited for their needs. Many formulations and additives create more than 85,000 thermoplastics, this app will make your life easier.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://chaosanswers.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/chaos-answers-app.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://chaosanswers.com/\" target=\"_blank\">\n								<h4>Chaos Answers</h4>\n							</a>\n							<a href=\"https://play.google.com/store/apps/details?id=hawaiitass.android.steinwallmodel&hl=en\" target=\"_blank\"><i class=\"download-icon fa fa-android\"></i></a>\n							<a href=\"http://www.windowsphone.com/en-us/store/app/chaos-models/a24b2fad-eee9-4ba5-b875-d5d35f864b68\" target=\"_blank\"><i class=\"download-icon fa fa-windows\"></i></a>\n							<p>\n								Chaos Answers app helps managers know how to adapt their view of changing circumstances quickly and effectively. Our team developed the Android and Windows Phone app.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://www.steinwall.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/steinwall-pimm.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://www.steinwall.com/\" target=\"_blank\">\n								<h4>Steinwall PIMM iPad App</h4>\n							</a>\n							<a href=\"https://itunes.apple.com/us/app/pimm-app/id640015509?mt=8\" target=\"_blank\"><i class=\"download-icon fa fa-apple\"></i></a>\n							<p>\n								This app plays PIMMs, Production Instructions Multi Media, which are video versions of instruction manuals for parts being produced at Steinwall Incorporated. We developed the iPad app.\n							</p>\n						</div>\n					</li>\n				</ul>\n			</div>\n		</div><!-- /.row -->\n	</div>\n</div>\n\n<!-- <div class=\"web-cutout-bg\"> -->\n<div class=\"callout-2\">\n	<div class=\"vert-text\">\n		<p class=\"huge\">Stay one-step ahead of the competition</p>\n	</div>\n</div>\n\n<div id=\"web\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Web Development</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<h4>Graphics &amp; Design</h4>\n				</div>\n				<ul>\n					<li>Graphics and Logo design</li>\n					<li>Responsive Design</li>\n				</ul>\n			</div>\n			<div class=\"col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<h4>Development</h4>\n				</div>\n				<ul>\n					<li>E-Commerce Portals</li>\n					<li>API Development</li>\n					<li>Social Integration</li>\n				</ul>\n			</div>\n			<div class=\"col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<h4>Performance &amp; Maintainence</h4>\n				</div>\n				<ul>\n					<li>Search Engine Optimization (SEO)</li>\n					<li>Web Analytics</li>\n					<li>Web Security</li>\n					<li>Performance and Caching</li>\n				</ul>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h3>Content Management</h3>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-2 col-sm-offset-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/drupal.png\" | prepend: site.baseurl }}\" alt=\"Drupal\" height=\"144\" width=\"144\" />\n					<h4>Drupal</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/wordpress.png\" | prepend: site.baseurl }}\" alt=\"Wordpress\" height=\"144\" width=\"144\" />\n					<h4>Wordpress</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/joomla.png\" | prepend: site.baseurl }}\" alt=\"Joomla\" height=\"144\" width=\"144\" />\n					<h4>Joomla</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/globe.png\" | prepend: site.baseurl }}\" alt=\"Custom\" height=\"144\" width=\"144\" />\n					<h4>Custom Design</h4>\n				</div>\n			</div>\n		</div>\n\n	</div>\n</div>\n\n<!--\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-8 col-md-offset-2 text-center\">\n				<q>\n					<big>A nice quote fr\n					om someone special.</big>\n					<cite>Someone Special</cite>\n				</q>\n			</div>\n		</div>\n	</div>\n</div>\n-->\n\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Developed Sites</h2>\n				<hr>\n			</div>\n		</div>\n		<div id=\"web-slides-nav\" class=\"row\">\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<img src=\"{{ \"/assets/images/shoppingguru.png\" | prepend: site.baseurl }}\" alt=\"Shopping Guru\" height=\"100\" width=\"100\" />\n					<h4>Shopping Guru App</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<img src=\"{{ \"/assets/images/biomanufacturing.png\" | prepend: site.baseurl }}\" alt=\"Biomanufacturing.org\" height=\"100\" width=\"174\" />\n					<h4>Biomanufacturing.org</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<img src=\"{{ \"/assets/images/yodify.png\" | prepend: site.baseurl }}\" alt=\"Yodify\" height=\"100\" width=\"100\" />\n					<h4>Yodify</h4>\n				</div>\n			</div>\n			<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<img src=\"{{ \"/assets/images/chaos-answers.png\" | prepend: site.baseurl }}\" alt=\"Chaos Answers\" height=\"100\" width=\"100\" />\n					<h4>Chaos Answers</h4>\n				</div>\n			</div>\n			<!--<div class=\"col-sm-6 col-md-3 text-center\">\n				<div class=\"nav-item\">\n					<a href=\"http://greenpowersolutionsllc.com/\" target=\"_blank\">\n						<img src=\"{{ \"/assets/images/greenpower.jpg\" | prepend: site.baseurl }}\" alt=\"Greenpower Solutions\" height=\"100\" width=\"68\" />\n						<h4>Greenpower Solutions</h4>\n					</a>\n					<p>This company’s mission is to bring Practical, Affordable and Reliable Renewable Energy Solutions to Hawaii’s energy consumers. We have developed this web portal, and we continue to manage the database, users, content, and security & analytics of the portal.</p>\n				</div>\n			</div>-->\n		</div>\n		<div class=\"row\">\n			<div id=\"web-slides\" class=\"flexslider\">\n				<ul class=\"slides\">\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://getshoppingguru.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/shoppingguru.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://getshoppingguru.com/\" target=\"_blank\">\n								<h4>Shopping Guru App</h4>\n							</a>\n							<p>\n								This is the website for our app.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://www.biomanufacturing.org\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/biomanufacturing.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://www.biomanufacturing.org\" target=\"_blank\">\n								<h4>Biomanufacturing.org</h4>\n							</a>\n							<p>\n								This is a National Science Foundation (NSF) funded project. The mission of this project is to coordinate local and regional efforts into a national Biomanufacturing education and training system to promote, create, and sustain a qualified workforce. We have completely re-designed this Web portal using Drupal 7 technology. We re-structured the content and provided a new database structure, enabling greater flexibility and efficiency in maintaining and disseminating the valuable information. We provide support and maintenance of the web portal, including user training, analytics reports, and web security updates.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://www.yodify.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/yodify.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://www.yodify.com/\" target=\"_blank\">\n								<h4>Yodify</h4>\n							</a>\n							<p>\n								This web application is dedicated to accountants who suffer from information overload, who are tired of interpreting everything by themselves, and want to go home at a reasonable time. Our team has provided support services, and module development for this Drupal 7 web portal.\n							</p>\n						</div>\n					</li>\n					<li>\n						<div class=\"col-sm-12 col-md-8 text-center\">\n							<a href=\"http://chaosanswers.com/\" target=\"_blank\">\n								<img src=\"{{ \"/assets/images/screenshots/chaos-answers.jpg\" | prepend: site.baseurl }}\">\n							</a>\n						</div>\n						<div class=\"col-sm-12 col-md-4 text-center\">\n							<a href=\"http://chaosanswers.com/\" target=\"_blank\">\n								<h4>Chaos Answers</h4>\n							</a>\n							<p>\n								Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security &amp; analytics of the portal.\n							</p>\n						</div>\n					</li>\n				</ul>\n			</div>\n		</div>\n	</div>\n</div>\n\n<div id=\"drawing-viewport\" class=\"paper-callout\">\n	<canvas id=\"drawing\" height=\"400\"></canvas>\n	<div class=\"vert-text\">\n		<p class=\"huge\">Maximize User Engagement and Enjoyment</p>\n	</div>\n</div>\n<script>\nfunction getRandomInt(min, max) {\n	return Math.floor(Math.random() * (max - min + 1)) + min;\n}\n\nvar canvas = document.getElementById('drawing');\nvar viewport = document.getElementById('drawing-viewport');\nvar ctx = canvas.getContext('2d');\n\nctx.lineWidth = 1;\nctx.lineJoin = ctx.lineCap = 'round';\n// ctx.strokeStyle = 'purple';\n\n\nvar isDrawing, lastPoint;\n\n// canvas.onmousedown = function(e) {\n//   isDrawing = true;\n//   lastPoint = { x: e.clientX, y: e.clientY };\n// };\n\n// canvas.onmouseup = function() {\n//   isDrawing = false;\n// };\n\nvar canvas_location = viewport.getBoundingClientRect();\n\nviewport.onmousemove = function(e) {\n	var newPoint = { x: e.layerX, y: e.layerY };\n	if (!isDrawing){\n		isDrawing = true;\n		lastPoint = newPoint;\n	};\n	ctx.beginPath();\n	ctx.strokeStyle = 'rgba(0,0,0,.25)';\n	\n	ctx.moveTo(lastPoint.x - getRandomInt(0, 2), lastPoint.y - getRandomInt(0, 2));\n	ctx.lineTo(newPoint.x - getRandomInt(0, 2), newPoint.y - getRandomInt(0, 2));\n	ctx.stroke();\n	\n	ctx.moveTo(lastPoint.x, lastPoint.y);\n	ctx.lineTo(newPoint.x, newPoint.y);\n	ctx.stroke();\n	\n	ctx.moveTo(lastPoint.x + getRandomInt(0, 2), lastPoint.y + getRandomInt(0, 2));\n	ctx.lineTo(newPoint.x + getRandomInt(0, 2), newPoint.y + getRandomInt(0, 2));\n	ctx.stroke();\n		\n	lastPoint = newPoint;\n};\n\n// resize the canvas to fill browser window dynamically\nwindow.addEventListener('resize', resizeCanvas, false);\n\nfunction resizeCanvas() {\n	canvas.width = window.innerWidth;\n	//canvas.height = window.innerHeight;\n}\nresizeCanvas();\n\n</script>\n\n\n\n<div id=\"games\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Game Development</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-6\">\n				<div class=\"row text-center\">\n					<h4>2D Technologies</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-7\">Design interactive games using sharp, fast and efficient 2D technologies that can adjust to any screen size. Develop graphics for mobile games/apps.</div>\n					<ul class=\"col-xs-5 breakdown-bullets\">\n						<li>SVG and HTML5</li>\n						<li>HTML5 Canvas</li>\n						<li>Flash</li>\n					</ul>\n				</div>\n			</div>\n			<!-- <div class=\"col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<h4>Gamification</h4>\n				</div>\n				<br>\n				<ul>\n					<li>Apply game mechanics to your products to drive user engagement.</li>\n					<li>Design educational games that facilitate learning.</li>\n				</ul>\n			</div> -->\n			<div class=\"col-sm-6\">\n				<div class=\"row text-center\">\n					<h4>3D Technologies</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-7\">Immersive 3D graphics allow the user to jump in, and get a realworld perspective.</div>\n					<ul class=\"col-xs-5 breakdown-bullets\">\n						<li>Unity</li>\n						<li>Canvas + WebGL using Three.js</li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-6 col-md-offset-3 text-center\">\n				<h3>Leverage Modern Graphics Technologies</h3>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n		<div class=\"col-lg-2 col-sm-4 text-center\">\n			<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/svg.png\" | prepend: site.baseurl }}\" alt=\"SVG\" height=\"144\" width=\"144\" />\n					<h4>SVG</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/canvas.png\" | prepend: site.baseurl }}\" alt=\"Canvas\" height=\"144\" width=\"144\" />\n					<h4>Canvas</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/html5.png\" | prepend: site.baseurl }}\" alt=\"HTML5\" height=\"144\" width=\"144\" />\n					<h4>HTML5</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/css3.png\" | prepend: site.baseurl }}\" alt=\"CSS3\" height=\"144\" width=\"144\" />\n					<h4>CSS3</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/Flash.png\" | prepend: site.baseurl }}\" alt=\"Flash\" height=\"144\" width=\"144\" />\n					<h4>Flash</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/unity.png\" | prepend: site.baseurl }}\" alt=\"Unity\" height=\"144\" width=\"144\" />\n					<h4>Unity</h4>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n\n<div id=\"security\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Security Analysis and Penetration Testing</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-6\">\n				<div class=\"row text-center\">\n					<h4>2D Technologies</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-7\">Design interactive games using sharp, fast and efficient 2D technologies that can adjust to any screen size. Develop graphics for mobile games/apps.</div>\n					<ul class=\"col-xs-5 breakdown-bullets\">\n						<li>SVG and HTML5</li>\n						<li>HTML5 Canvas</li>\n						<li>Flash</li>\n						Vulnerability Scanning and Vulnerability Analysis\n						Penetration Testing \n						Security Testing\n						Source code Testing \n					</ul>\n				</div>\n			</div>\n			<!-- <div class=\"col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<h4>Gamification</h4>\n				</div>\n				<br>\n				<ul>\n					<li>Apply game mechanics to your products to drive user engagement.</li>\n					<li>Design educational games that facilitate learning.</li>\n				</ul>\n			</div> -->\n			<div class=\"col-sm-6\">\n				<div class=\"row text-center\">\n					<h4>3D Technologies</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-7\">Immersive 3D graphics allow the user to jump in, and get a realworld perspective.</div>\n					<ul class=\"col-xs-5 breakdown-bullets\">\n						<li>Unity</li>\n						<li>Canvas + WebGL using Three.js</li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-6 col-md-offset-3 text-center\">\n				<h3>Leverage Modern Graphics Technologies</h3>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n		<div class=\"col-lg-2 col-sm-4 text-center\">\n			<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/svg.png\" | prepend: site.baseurl }}\" alt=\"SVG\" height=\"144\" width=\"144\" />\n					<h4>SVG</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/canvas.png\" | prepend: site.baseurl }}\" alt=\"Canvas\" height=\"144\" width=\"144\" />\n					<h4>Canvas</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/html5.png\" | prepend: site.baseurl }}\" alt=\"HTML5\" height=\"144\" width=\"144\" />\n					<h4>HTML5</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/css3.png\" | prepend: site.baseurl }}\" alt=\"CSS3\" height=\"144\" width=\"144\" />\n					<h4>CSS3</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/Flash.png\" | prepend: site.baseurl }}\" alt=\"Flash\" height=\"144\" width=\"144\" />\n					<h4>Flash</h4>\n				</div>\n			</div>\n			<div class=\"col-lg-2 col-sm-4 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/unity.png\" | prepend: site.baseurl }}\" alt=\"Unity\" height=\"144\" width=\"144\" />\n					<h4>Unity</h4>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n\n<div class=\"callout-1\">\n	<div class=\"vert-text\">\n		<p class=\"huge\">Bring your data to life</p>\n	</div>\n</div>\n\n<div id=\"database\" class=\"blue-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Data Mining</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-12 col-md-6\">\n				<div class=\"row text-center\">\n					<i class=\"medium-icon fa fa-database\"></i>\n					<h4>Database Design &amp; Development</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-6\">\n						Our team is adept at developing thorough and efficient database schemas that meet your specific needs.\n					</div>\n					<ul class=\"col-xs-6 breakdown-bullets\">\n						<li>Capture and store your valuable data.</li>\n						<li>Facilitate efficient storage and retrieval.</li>\n						<li>Secure designs that protect your data and users.</li>\n						<li>Easily track users, inventory, employees, etc.</li>\n					</ul>\n				</div>\n			</div>\n			<div class=\"col-sm-12 col-md-6\">\n				<div class=\"row text-center\">\n					<i class=\"medium-icon fa fa-table\"></i>\n					<h4>Data Mining &amp; Analysis</h4>\n				</div>\n				<br>\n				<div class=\"row\">\n					<div class=\"col-xs-6\">\n					Represent your data in new ways that make it easier to understand. Gain new understanding of your information through data extraction and analysis techniques.\n					</div>\n					<ul class=\"col-xs-6 breakdown-bullets\">\n						<li>Restructure your data into easily accessible views.</li>\n						<li>Extract patterns and features from your data.</li>\n						<li>Plot graphs and analyze statistics.</li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<div class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-6 col-md-offset-3 text-center\">\n				<h3>Professional Database Technology</h3>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-xs-12 col-sm-2 col-sm-offset-1 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/mysql.png\" | prepend: site.baseurl }}\" alt=\"MySQL\" height=\"144\" width=\"144\" />\n				</div>\n			</div>\n			<div class=\"col-xs-12 col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/postgresql.png\" | prepend: site.baseurl }}\" alt=\"PostgreSQL\" height=\"144\" width=\"144\" />\n				</div>\n			</div>\n			<div class=\"col-xs-12 col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/mssql.png\" | prepend: site.baseurl }}\" alt=\"Microsoft SQL\" height=\"144\" width=\"144\" />\n				</div>\n			</div>\n			<div class=\"col-xs-12 col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/filemaker.png\" | prepend: site.baseurl }}\" alt=\"Filemaker Pro\" height=\"144\" width=\"144\" />\n					<h4>Filemaker Pro</h4>\n				</div>\n			</div>\n			<div class=\"col-xs-12 col-sm-2 text-center\">\n				<div class=\"icon-item\">\n					<img class=\"img-responsive\" src=\"{{ \"/assets/images/access.png\" | prepend: site.baseurl }}\" alt=\"Microsoft Access\" height=\"144\" width=\"144\" />\n					<h4>Microsoft Access</h4>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n{% include index/map.html %}\n\n<div id=\"meet_us\" class=\"gray-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-6 col-md-offset-3 text-center\">\n				<h2>\n					About Us<br>\n					<small> Trustworthy &amp; Affordable Software Services</small>\n				</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-md-8 col-md-offset-2 text-justify\">\n				{{ site.description }}\n			</div>\n		</div>\n		<br>\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h4>Meet the team</h4>\n			</div>\n		</div>\n		<br>\n		<div class=\"row\">\n			<div class=\"col-md-12 text-center\">\n				{% include index/members.html %}\n			</div>\n		</div>\n	</div>\n</div>\n\n<div id=\"contact\" class=\"white-section\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-4 col-md-offset-4 text-center\">\n				<h2>Contact Us</h2>\n				<hr>\n			</div>\n		</div>\n		<div class=\"row\">\n			<div class=\"col-md-6 col-md-offset-3\">\n				<div class=\"row text-center\">\n					<div class=\"col-xs-4\">\n						<strong>Phone:</strong><br>\n						808-315-2727<br>\n						808-987-9822<br>\n					</div>\n					<div class=\"col-xs-4\">\n						<strong>Email:</strong><br>\n						<a href=\"mailto:contacts@TASSUSA.com\">contacts@TASSUSA.com</a><br>\n						<a href=\"mailto:ZinatUSA@gmail.com\">ZinatUSA@gmail.com</a><br>\n					</div>\n					<div class=\"col-xs-4\">\n						<strong>Address:</strong><br>\n						614 Kilauea Ave, Suite 101<br>\n						Hilo, HI 96720, USA\n					</div>\n				</div>\n				<p class=\"row text-center\"><em>Customer parking is available on the backside of our office building.</em></p>\n<!-- 				<div class=\"row text-center\">\n					<a href=\"{{ \"contact\" | prepend: site.baseurl }}\" class=\"btn btn-success btn-lg\" role=\"button\">Contact Form</a>\n				</div>\n				<br>\n				<div class=\"row\">\n					\n				</div> -->\n<!--           <form method=\"post\" action=\"\" id=\"contact_form\">\n						<p>\n							<label for=\"name\">Name *</label><br>\n							<input type=\"text\" name=\"name\" value=\"\" keyev=\"true\" style=\"\"><br>\n						</p>\n						<p>\n						<label for=\"email\">E-mail *</label><br>\n						<input type=\"text\" name=\"email\" value=\"\"><br>\n						</p>\n						<p>\n						<label for=\"message\">Message *</label><br>\n						<textarea name=\"message\" cols=\"50\" rows=\"4\"></textarea><br>\n						</p>\n						<input type=\"submit\" name=\"submit\" class=\"btn btn-large btn-inverse form-btn\" value=\"SEND MESSAGE\"><br>\n					</form>\n				</div>-->\n			</div>\n		</div>\n	</div>\n</div>\n",
-			"file": "index.html",
-			"file_size": 30383,
-			"file_write_time": 130788855499599041,
+			"file": "_members/joel.md",
 			"settings":
 			{
-				"buffer_size": 30508,
-				"line_ending": "Unix"
+				"buffer_size": 451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_members/morshed.md",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -279,8 +284,13 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Andrew/Work/jekyll.tassusa/_members/izzat.md",
+		"/C/Users/Andrew/Work/jekyll.tassusa/index.html",
+		"/C/Users/Andrew/Work/jekyll.tassusa/_sass/_extra.scss",
+		"/C/Users/Andrew/Work/jekyll.tassusa/.gitignore",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_data/index_nav.yml",
+		"/C/Users/Andrew/Work/jekyll.tassusa/_members/izzat.md",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_members/joel.md",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_members/andrew.md",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_members/yanara.md",
@@ -313,7 +323,6 @@
 		"/C/Users/Andrew/Work/jekyll.tassusa/_site/members/yanara.html",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_site/members/zinat.html",
 		"/C/Users/Andrew/Work/jekyll.tassusa/_config.yml",
-		"/C/Users/Andrew/Work/jekyll.tassusa/_sass/_extra.scss",
 		"/C/Users/Andrew/Work/jekyll.tassusa/gemfile",
 		"/C/Users/Andrew/AppData/Local/Temp/fz3temp-1/hybridauth_provider_icon.tpl.php",
 		"/C/Users/Andrew/AppData/Local/Temp/fz3temp-1/c3bctrack.info",
@@ -402,11 +411,7 @@
 		"/C/Users/Andrew/AppData/Roaming/FileZilla/sitemanager.xml",
 		"/C/wamp/www/shopping/.git/config",
 		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/template.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/templates/html.tpl.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/templates/maintenance-page.tpl.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/templates/page.tpl.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/theme-settings.php",
-		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/hawaiitass.info"
+		"/C/wamp/www/getshoppingguru.com/sites/all/themes/hawaiitass/templates/html.tpl.php"
 	],
 	"find":
 	{
@@ -430,6 +435,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"table",
+			"vert-text",
+			"callout",
 			"bring your data to life",
 			"TASS USA",
 			"region-nav",
@@ -554,10 +562,7 @@
 			"<\\?php print t\\('?\"?(.*)'?\"?\\);? \\?>",
 			"<\\?php print t\\('?\"?(.*)\\'?\"?);? \\?>",
 			"<\\?php print t\\((.*)\\);? \\?>",
-			"<\\?php print url\\(\\$directory.'([^']+)', array\\('absolute'=>true\\)\\); \\?>",
-			"<\\?php print url\\(\\$directory.'/([^/]+)/(.*)', array\\('absolute'=>true\\)\\); \\?>",
-			"<\\?php print url\\($directory.'/([^/]+)/(.*)', array\\('absolute'=>true\\)\\); \\?>",
-			"vertical"
+			"<\\?php print url\\(\\$directory.'([^']+)', array\\('absolute'=>true\\)\\); \\?>"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -708,94 +713,64 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "_members/joel.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30508,
+						"buffer_size": 451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22381,
-								22255
+								451,
+								451
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 13094.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_members/morshed.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
