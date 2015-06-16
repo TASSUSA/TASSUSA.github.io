@@ -8,7 +8,7 @@ picture: "picture-1-1412896482.jpg"
 ---
 #### Background:
   
-The president of TASS USA, Dr. Shawon Rahman, has earned a Ph.D. degree in Software Engineering. He works as a computer science professor at the local university. He has more than 12 years of experience in Software Development in Hawaii and mainland USA. He is expert in developing Mobile Phone Apps (e.g. iPhone, Android, Windows), E-commerce websites, Search Engine Optimization (SEO), Information Security, Cyber Security, Network Security, etc. Our president manages software development team at TASS USA.
+The president of TASS, Dr. Shawon Rahman, has earned a Ph.D. degree in Software Engineering. He works as a computer science professor at the local university. He has more than 12 years of experience in Software Development in Hawaii and mainland USA. He is expert in developing Mobile Phone Apps (e.g. iPhone, Android, Windows), E-commerce websites, Search Engine Optimization (SEO), Information Security, Cyber Security, Network Security, etc. Our president manages software development team at TASS.
  
 #### Academic Background:
 - Ph.D., Software Engineering, North Dakota State University

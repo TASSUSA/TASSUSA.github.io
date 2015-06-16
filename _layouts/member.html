@@ -10,7 +10,11 @@ layout: default
 						<!-- TODO: ADD BREADCRUMBS -->
 						<div id="content-wrap">
 							<div class="page-picture">
-								<img typeof="foaf:Image" src="{{ page.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ page.real_name }}">
+								{% if page.picture_big %}
+									<img typeof="foaf:Image" src="{{ page.picture_big | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ page.real_name }}">
+								{% else %}
+									<img typeof="foaf:Image" src="{{ page.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ page.real_name }}">
+								{% endif %}
 							</div>
 							<h1 class="page-title">
 								{{ page.real_name }}<br>

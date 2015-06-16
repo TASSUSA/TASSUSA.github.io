@@ -1,5 +1,5 @@
 # Site settings
-title: TASS USA
+title: TASS
 slogan: "Trustworthy & Affordable Software Services"
 email: zinatusa@gmail.com
 description: >
@@ -14,7 +14,7 @@ markdown: kramdown
 
 # Define custom collections
 collections:
-  members: # The members of TASS USA
+  members: # The members of TASS
     output: true
 
 exclude: ["START SERVER", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

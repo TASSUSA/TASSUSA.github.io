@@ -4,10 +4,12 @@ sort: 1
 real_name: "Andrew Wessels"
 job_title: "Software Engineer, Lead Web Developer"
 email: "Andrew@TASSUSA.com"
-picture: "picture-1496-1384399691.jpg"
+picture: "andrew.jpg"
+picture_big: "andrew-big.jpg"
+github: https://www.linkedin.com/in/andrewwessels
 ---
 #### Background:
-Andrew works for TASS USA primarily as a Web Developer and Designer. He also works on Android projects.
+Andrew works for TASS primarily as a Web Developer and Designer. He also works on Android projects.
 
 #### Education:
 BS in Computer Science, University of Hawaii at Hilo

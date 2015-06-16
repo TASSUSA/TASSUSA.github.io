@@ -1,6 +1,3 @@
-- id: home
-  label: "Home"
-
 - id: mobile
   label: "Mobile Apps"
 
@@ -9,6 +6,9 @@
 
 - id: games
   label: "Game Dev."
+
+- id: security
+  label: "Security"
 
 - id: database
   label: "Data Mining"

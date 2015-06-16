@@ -5,9 +5,10 @@ real_name: "Yanara Caez"
 job_title: "Game Developer & Graphics Designer"
 email: "Yanara@TASSUSA.com"
 picture: "yanara.jpg"
+picture_big: "yanara-big.jpg"
 ---
 #### Background: 
-Miss Yanara Caez works at TASS USA as a Game Developer and Graphics Designer. She is skilled in 2D and 3D game development and graphics design.
+Miss Yanara Caez works at TASS as a Game Developer and Graphics Designer. She is skilled in 2D and 3D game development and graphics design.
 
 #### Education:
 - BS Student in Computer Science at the University of Hawaii-Hilo

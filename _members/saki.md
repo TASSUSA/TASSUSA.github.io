@@ -7,7 +7,7 @@ email: "Saki@TASSUSA.com"
 picture: "picture-1535-1396314299.png"
 ---
 #### Background: 
-Mr. AKM Saiful Islam works for TASS USA as a Senior Programmer. He is an expert in writing programs in Java, J2EE, SPSS, etc. domain. He is also experienced in Mobile Apps and cyber-portal Development. Mr. Islam physically located in California. 
+Mr. AKM Saiful Islam works for TASS as a Senior Programmer. He is an expert in writing programs in Java, J2EE, SPSS, etc. domain. He is also experienced in Mobile Apps and cyber-portal Development. Mr. Islam physically located in California. 
 
 #### Education:
 - MS in Computer Science, Lamar University, TX

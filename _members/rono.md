@@ -7,7 +7,7 @@ email: "Rono@TASSUSA.com"
 picture: "picture-1520-1408490917.png"
 ---
 #### Background: 
-Mr. Syed (Rono) Ahmed works for TASS USA as a Senior Software Engineer. He is an expert in developing Mobile Applications, and Database development. Mr. Ahmed is physically located in Fargo, North Dakota.
+Mr. Syed (Rono) Ahmed works for TASS as a Senior Software Engineer. He is an expert in developing Mobile Applications, and Database development. Mr. Ahmed is physically located in Fargo, North Dakota.
 
 #### Education:
 - MS in Computer Science, Fargo, North Dakota State University.

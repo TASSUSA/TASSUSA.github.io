@@ -1,13 +1,13 @@
 ---
 layout: member
-sort: 3
+sort: 2
 real_name: "Christopher Nelson"
 job_title: "Game Developer"
 email: "Chris@TASSUSA.com"
 picture: "chris.png"
 ---
 #### Background: 
-Mr. Christopher Nelson works in the TASS USA as a Game Developer. He is an expert in developing games including the popular CaveRealms, SkyLands, and the Sky-Test sub-game. 
+Mr. Christopher Nelson works in the TASS as a Game Developer. He is an expert in developing games including the popular CaveRealms, SkyLands, and the Sky-Test sub-game. 
 
 #### Education:
 - BS Student in Computer Science and Engineering at the University of Hawaii-Hilo

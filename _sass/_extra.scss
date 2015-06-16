@@ -1218,7 +1218,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover !important;
   background: url($url) no-repeat center center fixed;
 }
 
@@ -1226,7 +1226,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   @include callout('../images/finger-tablet.jpg');
 }
 
-.callout-1 {
+.callout-data {
   @include callout('../images/callout-bg-1-blur.jpg');
 }
 
@@ -1253,6 +1253,10 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 .callout-7 {
   @include callout('../images/crumpled-paper.jpg');
   color: #1c6c8c;
+}
+
+.callout-security {
+  @include callout('../images/callout-data-center.jpg');
 }
 
 #drawing-viewport{

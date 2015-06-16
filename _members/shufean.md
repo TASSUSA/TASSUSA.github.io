@@ -7,7 +7,7 @@ email: "Abu@TASSUSA.com"
 picture: "picture-1519-1396059150.png"
 ---
 #### Background:
-Mr. Abu Shufean works for TASS USA as a Software Engineering. He is an expert in developing Android Mobile Applications and game development. Mr. Shufean physically located in Beaumont, Texas.
+Mr. Abu Shufean works for TASS as a Software Engineering. He is an expert in developing Android Mobile Applications and game development. Mr. Shufean physically located in Beaumont, Texas.
 
 #### Education:
 - MS in Computer Science, Student, Lamar University, TX

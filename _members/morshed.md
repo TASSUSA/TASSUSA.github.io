@@ -7,7 +7,7 @@ email: "Morshed@TASSUSA.com"
 picture: "picture-1517-1396059512.png"
 ---
 #### Background:
-Mr. Morshed Osmani works as a Senior Software Engineer at the largest software development company in the world. He works part-time in the TASS USA company as the director of the Software development team. Mr. Osmani physically works from Redmond, WA..
+Mr. Morshed Osmani works as a Senior Software Engineer at the largest software development company in the world. He works part-time in the TASS company as the director of the Software development team. Mr. Osmani physically works from Redmond, WA..
 
 #### Education:
 - MS in Computer Science, North Dakota State University
