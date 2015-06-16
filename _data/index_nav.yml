@@ -1,3 +1,6 @@
+- id: security
+  label: "Cybersecurity"
+
 - id: mobile
   label: "Mobile Apps"
 
@@ -6,9 +9,6 @@
 
 - id: games
   label: "Game Dev."
-
-- id: security
-  label: "Cybersecurity"
 
 - id: database
   label: "Data Mining"
