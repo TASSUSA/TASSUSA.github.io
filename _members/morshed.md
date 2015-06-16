@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 2
+sort: 1
 real_name: "Morshed Osmani"
 job_title: "Director, Software Development"
 email: "Morshed@TASSUSA.com"
