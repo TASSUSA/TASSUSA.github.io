@@ -168,9 +168,26 @@
 	"buffers":
 	[
 		{
+			"file": "_sass/_extra.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 32488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 31615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/index/members.html",
+			"settings":
+			{
+				"buffer_size": 816,
 				"line_ending": "Unix"
 			}
 		}
@@ -182,10 +199,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 187.0,
-		"last_filter": "git open",
+		"height": 47.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"git open",
 				"Github: Open File"
@@ -225,10 +246,6 @@
 			[
 				"prett",
 				"Pretty JSON: Format (Pretty Print) JSON"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"git blame",
@@ -332,10 +349,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrew/Work/TASSUSA.github.io"
+		"/Users/andrew/Work/TASSUSA.github.io",
+		"/Users/andrew/Work/TASSUSA.github.io/assets",
+		"/Users/andrew/Work/TASSUSA.github.io/assets/css",
+		"/Users/andrew/Work/TASSUSA.github.io/assets/images"
 	],
 	"file_history":
 	[
+		"/Users/andrew/Work/TASSUSA.github.io/assets/css/main.scss",
+		"/Users/andrew/Work/TASSUSA.github.io/_includes/index/map.html",
+		"/Users/andrew/Work/TASSUSA.github.io/gemfile",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/nayeem.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/zinat.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/siniva.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_includes/index/members.html",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/izzat.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/rono.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/shufean.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/saki.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/salahuddin.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/shawon.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/morshed.md",
+		"/Users/andrew/Work/TASSUSA.github.io/_members/andrew.md",
 		"/Users/andrew/Work/THDCareersProduction/index.html",
 		"/Users/andrew/Work/THDCareersProduction/find-your-fit/retail.html",
 		"/Users/andrew/Work/THDCareersProduction/find-your-fit/distribution-hourly.html",
@@ -448,26 +483,11 @@
 		"/Users/andrew/Work/THDCareersProduction/ap.html",
 		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/main.less",
 		"/Users/andrew/Work/THDCareersProduction/_asset/css/developing-potential/next.less",
-		"/Users/andrew/Work/THDCareersProduction/military-commitment/index.html",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/_inc/owl/_custom.less",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/owl-carousel/custom.less",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/owl-carousel/_mixins.less",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/_inc/_core-owl-carousel.less",
-		"/Users/andrew/Work/THDCareersProduction/_lib/parts/video/modal-banner.twig",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/you/search-form.less",
-		"/Users/andrew/Work/THDCareersProduction/_lib/common/lessphp/lessc.inc.php",
-		"/Users/andrew/Work/THDCareersProduction/_lib/common/lessphp/new/lessc.inc.php",
-		"/Users/andrew/Work/THDCareersProduction/_asset/js/military-commitment/military-commitment.js",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_my-libs/_inc/_locked-nav.less",
-		"/Users/andrew/Work/THDCareersProduction/college-form/index.html",
-		"/Users/andrew/Work/THDCareersProduction/_asset/js/migrate-old/socialBlock.js",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/_libs/bootstrap/variables.less",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/developing-potential/next.css",
-		"/Users/andrew/Work/THDCareersProduction/_asset/css/jobs-in-bloom/jobs-in-bloom.less"
+		"/Users/andrew/Work/THDCareersProduction/military-commitment/index.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -598,6 +618,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yodify",
+			"yodify.com",
+			"<a href=\"",
+			"<img ",
+			"#meet",
+			"~",
+			"@",
+			"@media",
+			"-big.",
+			",",
+			"who-we",
+			"member",
+			"member-",
+			".who-we-are-row",
+			".who-we-are-ro",
 			"}}\" data-event-category",
 			"fitSubNav.html",
 			"<?php include(PARTIAL_PATH.\"/find-your-fit/fitSubNav.html\"); ?>",
@@ -710,22 +745,7 @@
 			"Our associates are passionate about being a trusted resource for our communities, friends and neighbors..",
 			"craig",
 			"Our associates are passionate about",
-			"menea",
-			"frank",
-			"search",
-			"Bethany",
-			"unload",
-			"partner-events-link",
-			"click",
-			"IEcss",
-			"IEscripts/",
-			"IEScripts",
-			"dragdealer-main.j",
-			"events",
-			"In 1979 on average",
-			"dyk-number",
-			"<span class=\"dyk-number\">80</span>",
-			"dykSwitch"
+			"menea"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -811,23 +831,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "_sass/_extra.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 32488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								31419,
+								31419
 							]
 						],
 						"settings":
@@ -891,14 +912,192 @@
 								"bh_angle_close",
 								"bh_angle_content"
 							],
-							"default_dir": "/Users/andrew/Work/THDCareersProduction",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 25795.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27975,
+								27975
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13867.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/index/members.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								588,
+								588
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -961,8 +1160,32 @@
 		"selected_items":
 		[
 			[
+				"scss",
+				"assets/css/main.scss"
+			],
+			[
+				"map.html",
+				"_includes/index/map.html"
+			],
+			[
+				"nayeem",
+				"_members/nayeem.md"
+			],
+			[
+				"members.html",
+				"_includes/index/members.html"
+			],
+			[
+				"members",
+				"_includes/index/members.html"
+			],
+			[
 				"index",
 				"index.html"
+			],
+			[
+				"extra",
+				"_sass/_extra.scss"
 			],
 			[
 				"config",
@@ -1447,30 +1670,6 @@
 			[
 				"searchui",
 				"_asset/js/_my-libs/search-ui.js"
-			],
-			[
-				"recentjobs",
-				"_asset/js/migrate-old/js/recentJobs.js"
-			],
-			[
-				"contactcenter",
-				"find-your-fit/contact-center.html"
-			],
-			[
-				"testimonial",
-				"_lib/parts/misc/testimonials.twig"
-			],
-			[
-				"contactjs",
-				"_asset/js/contact-center/contact-center.js"
-			],
-			[
-				"owltrans",
-				"_asset/js/_libs/owl-carousel/owl.transitions.css"
-			],
-			[
-				"owl/less",
-				"_asset/css/_my-libs/_inc/owl/_core.less"
 			]
 		],
 		"width": 0.0

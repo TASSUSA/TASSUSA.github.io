@@ -1484,6 +1484,9 @@ a.btn{
   &:hover{
     transform: scale(1.05);
     z-index: 10;
+    .member-info{
+      opacity: 1;
+    }
   }
 
   .member-img{
@@ -1508,6 +1511,8 @@ a.btn{
     font-weight: bold;
     color: white;
     line-height: 1.2em;
+    opacity: 0;
+    transition: opacity .5s;
   }
 
   .member-real-name{
@@ -1525,16 +1530,14 @@ a.btn{
     li{
       position: relative;
       float: left;
-      width: (100% / 5) - 1%;
-      margin: 0.5%;
+      $margin: 5%;
+      width: (100% / 5) - $margin;
+      margin: $margin/2;
       @media #{$mobile} {
-        width: (100% / 2) - 1%;
-        // width: 100%;
-        // margin: 10px 0;
-        font-size: .95em;
+        width: (100% / 2) - $margin;
       }
       @media #{$tablet} {
-        width: (100% / 3) - 1%;
+        width: (100% / 3) - $margin;
       }
     }
     img{
