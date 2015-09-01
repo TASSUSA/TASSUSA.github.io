@@ -1477,13 +1477,14 @@ a.btn{
   // height: 300px;
   // outline: 1px solid #e7e7e7;
   background: #fcfcfc;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: transform .5s;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: transform .5s, box-shadow .5s;
   padding: 0;
 
   &:hover{
     transform: scale(1.05);
     z-index: 10;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
     .member-info{
       opacity: 1;
     }
