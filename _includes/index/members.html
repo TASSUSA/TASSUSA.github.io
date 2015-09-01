@@ -2,20 +2,22 @@
 <div class="view-who-we-are">
 	<div class="view-content">
 	{% for member in members %}
-		<div class="who-we-are-row col-md-3 col-sm-4 col-xs-6">
-			<div class="member-picture">
-				<a href="{{ member.url }}">
-					<img typeof="foaf:Image" src="{{ member.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ member.real_name }}">
-				</a>
-			</div>
-			<div class="member-real-name">
-				<a href="{{ member.url }}">{{ member.real_name }}</a>
-			</div>
-			<div class="member-job-title">
-				{{ member.job_title }}
-			</div>
-			<div class="member-email">
-				<a href="mailto:{{ member.email }}">{{ member.email }}</a>
+		<div class="who-we-are-row"><!-- col-md-3 col-sm-4 col-xs-6 -->
+			<a href="{{ member.url }}">
+				<img class="member-img" typeof="foaf:Image" src="{{ member.picture | prepend: "/members/images/" | prepend: site.baseurl }}" alt="{{ member.real_name }}">
+			</a>
+			<!-- <div class="member-picture">
+			</div> -->
+			<div class="member-info">
+				<div class="member-real-name">
+					<a href="{{ member.url }}">{{ member.real_name }}</a>
+				</div>
+				<div class="member-job-title">
+					{{ member.job_title }}
+				</div>
+				<div class="member-email">
+					<a href="mailto:{{ member.email }}">{{ member.email }}</a>
+				</div>
 			</div>
 		</div>
 	{% endfor %}

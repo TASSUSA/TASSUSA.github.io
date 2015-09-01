@@ -4,7 +4,7 @@ sort: 1
 real_name: "Zinat Rahman"
 job_title: "Director, HR and Marketing"
 email: "Zinat@TASSUSA.com"
-picture: "picture-1518-1404961093.jpg"
+picture: "zinat.jpg"
 ---
 #### Background:
 Mrs. Zinat Rahman oversees the human resources and marketing tasks at TASS. She has worked as a project investigator to an International Organization and managed 20+ team members.
