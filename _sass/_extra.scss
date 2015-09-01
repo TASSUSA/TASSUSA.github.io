@@ -1530,6 +1530,7 @@ a.btn{
     li{
       position: relative;
       float: left;
+      transition: transform .5s;
       $margin: 5%;
       width: (100% / 5) - $margin;
       margin: $margin/2;
@@ -1538,6 +1539,10 @@ a.btn{
       }
       @media #{$tablet} {
         width: (100% / 3) - $margin;
+      }
+      &:hover{
+        transform: scale(1.3);
+        z-index: 10;
       }
     }
     img{
