@@ -11,6 +11,11 @@ github_username: TASSUSA
 # Build settings
 markdown: kramdown
 
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://tassusa.github.io/'
+  media: 'media'
+
 # Define custom collections
 collections:
   members: # The members of TASS
