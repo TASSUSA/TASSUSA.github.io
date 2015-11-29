@@ -12,7 +12,7 @@ github_username: TASSUSA
 markdown: kramdown
 
 prose:
-  siteurl: 'http://tassusa.github.io/'
+  siteurl: 'http://tassusa.com'
   media: 'media'
 
 # Define custom collections
