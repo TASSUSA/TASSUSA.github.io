@@ -12,7 +12,6 @@ github_username: TASSUSA
 markdown: kramdown
 
 prose:
-  rooturl: '_posts'
   siteurl: 'http://tassusa.github.io/'
   media: 'media'
 
