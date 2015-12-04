@@ -24,6 +24,16 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$mobile:      				"only screen and (max-width: 767px)";
+$tablet:      				"only screen and (min-width: 768px) and (max-width: 979px)";
+$desktop:     				"only screen and (min-width: 980px) and (max-width: 1228px)";
+$desktop-xl:  				"only screen and (min-width: 1229px)";
+
+$tablet-and-smaller: 		"only screen and (max-width: 979px)";
+$desktop-and-smaller: 		"only screen and (max-width: 1228px)";
+
+$tablet-and-bigger: 		"only screen and (min-width: 768px)";
+$desktop-and-bigger: 		"only screen and (min-width: 980px)";
 
 
 // Using media queries with like this:

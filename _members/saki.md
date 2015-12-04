@@ -4,7 +4,7 @@ sort: 3
 real_name: "Saiful (Saki) Islam"
 job_title: "Senior Programmer"
 email: "Saki@TASSUSA.com"
-picture: "picture-1535-1396314299.png"
+picture: "saki.jpg"
 ---
 #### Background: 
 Mr. AKM Saiful Islam works for TASS as a Senior Programmer. He is an expert in writing programs in Java, J2EE, SPSS, etc. domain. He is also experienced in Mobile Apps and cyber-portal Development. Mr. Islam physically located in California. 

@@ -4,7 +4,7 @@ sort: 3
 real_name: "Salahuddin Aziz"
 job_title: "Senior Data Mining Analyst"
 email: "Aziz@TASSUSA.com"
-picture: "picture-1537-1412910726.jpg"
+picture: "salahuddin.jpg"
 ---
 #### Background
 Mr. Salahuddin works as a Senior Java Developer at Dell Inc. He works part-time for the TASS company as the Senior Data Mining Analyst. Mr. Aziz physically works from Texas. He is also a Ph.D. candidate in the Computer Science Department at the Wayne State University, MI. His Ph.D. focus is in Data Mining.

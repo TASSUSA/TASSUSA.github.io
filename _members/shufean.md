@@ -4,7 +4,7 @@ sort: 3
 real_name: "Abu Shufean"
 job_title: "Software Engineer"
 email: "Abu@TASSUSA.com"
-picture: "picture-1519-1396059150.png"
+picture: "shufean.jpg"
 ---
 #### Background:
 Mr. Abu Shufean works for TASS as a Software Engineering. He is an expert in developing Android Mobile Applications and game development. Mr. Shufean physically located in Beaumont, Texas.

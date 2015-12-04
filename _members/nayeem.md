@@ -2,9 +2,9 @@
 layout: member
 sort: 3
 real_name: "Nayeem Ahmad"
-job_title: "Graphical User Interfaces Designer and Apps Developer"
+job_title: "GUI Designer and Apps Developer"
 email: "Nayeem@TASSUSA.com"
-picture: "picture-1529-1408845035.png"
+picture: "nayeem.jpg"
 ---
 #### Background:
 Mr. Nayeem Ahmad works for TASS as a Graphical User Interface Designer and Mobile Apps Developer.

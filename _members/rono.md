@@ -4,7 +4,7 @@ sort: 3
 real_name: "Syed (Rono) Ahmed"
 job_title: "Senior Software Engineer"
 email: "Rono@TASSUSA.com"
-picture: "picture-1520-1408490917.png"
+picture: "rono.jpg"
 ---
 #### Background: 
 Mr. Syed (Rono) Ahmed works for TASS as a Senior Software Engineer. He is an expert in developing Mobile Applications, and Database development. Mr. Ahmed is physically located in Fargo, North Dakota.

@@ -4,7 +4,7 @@ sort: 1
 real_name: "Morshed Osmani"
 job_title: "Director, Software Development"
 email: "Morshed@TASSUSA.com"
-picture: "picture-1517-1396059512.png"
+picture: "morshed.jpg"
 ---
 #### Background:
 Mr. Morshed Osmani works as a Senior Software Engineer at the largest software development company in the world. He works part-time in the TASS company as the director of the Software development team. Mr. Osmani physically works from Redmond, WA..
