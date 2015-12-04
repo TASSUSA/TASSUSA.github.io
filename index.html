@@ -203,101 +203,44 @@ nav: index
 			</div>
 		</div>
 		<div id="app-slides-nav" class="row">
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item icon-item">
-					<img src="{{ "/assets/images/shoppingguru.png" | prepend: site.baseurl }}" alt="ShoppingGuru" height="144" width="144" />
-					<h4>ShoppingGuru</h4>
+			{% for project in site.data.app_projects %}
+			<div class="col-sm-6 col-md-3 text-center" style="min-height: 200px;">
+				<div class="nav-item">
+					<img src="{{ project.thumb | prepend: site.baseurl }}" alt="{{ project.title }}" style="padding: 5px 0; max-height: 144px; {{ project.thumb_style }}" />
+					<h4>{{ project.title }}</h4>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item icon-item">
-					<img src="{{ "/assets/images/steinwall.png" | prepend: site.baseurl }}" alt="Steinwall Inc." height="144" width="144" />
-					<h4>Steinwall Plastic Matrix</h4>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item icon-item">
-					<img src="{{ "/assets/images/chaos-answers.png" | prepend: site.baseurl }}" alt="Chaos Answers" height="144" width="144" />
-					<h4>Chaos Answers</h4>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item icon-item">
-					<img src="{{ "/assets/images/pimm.png" | prepend: site.baseurl }}" alt="Steinwall Inc." height="144" width="144" />
-					<h4>Steinwall PIMM iPad App</h4>
-				</div>
-			</div>
+			{% endfor %}
 		</div><!-- /.row -->
 		<div class="row">
 			<div id="app-slides" class="flexslider">
 				<ul class="slides">
+					{% for project in site.data.app_projects %}
 					<li>
 						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://getshoppingguru.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/shoppingguru.jpg" | prepend: site.baseurl }}">
+							<a href="{{ project.link }}" target="_blank">
+								<img src="{{ project.img | prepend: site.baseurl }}">
 							</a>
 						</div>
 						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://getshoppingguru.com/" target="_blank">
-								<h4>ShoppingGuru</h4>
+							<a href="{{ project.link }}" target="_blank">
+								<h4>{{ project.title }}</h4>
 							</a>
-							<a href="https://play.google.com/store/apps/details?id=hawaiitass.shopping" target="_blank"><i class="download-icon fa fa-android"></i></a>
+							{% if project.android != "" %}
+							<a href="{{ project.android }}" target="_blank"><i class="download-icon fa fa-android"></i></a>
+							{% endif %}
+							{% if project.ios != "" %}
+							<a href="{{ project.ios }}" target="_blank"><i class="download-icon fa fa-apple"></i></a>
+							{% endif %}
+							{% if project.windows != "" %}
+							<a href="{{ project.windows }}" target="_blank"><i class="download-icon fa fa-windows"></i></a>
+							{% endif %}
 							<p>
-								ShoppingGuru reinvents the users’ shopping experience in Bangladesh. It is a smarter way to shop that helps you save time and money.
+								{{ project.description }}
 							</p>
 						</div>
 					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://www.steinwall.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/steinwall.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://www.steinwall.com/" target="_blank">
-								<h4>Steinwall Plastic Matrix</h4>
-							</a>
-							<a href="https://play.google.com/store/apps/details?id=hawaiitass.android.resin&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
-							<a href="https://itunes.apple.com/us/app/steinwall-plastic-matrix/id566245668?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
-							<a href="http://www.windowsphone.com/en-us/store/app/plastic-matrix/d7b542ec-4390-4f87-af26-eb01f9a6b096" target="_blank"><i class="download-icon fa fa-windows"></i></a>
-							<p>
-								Our team developed an iOS, Android, and Windows Phone app for Stienwall, Inc. The application helps users in the difficult task of determine what plastic is best suited for their needs. Many formulations and additives create more than 85,000 thermoplastics, this app will make your life easier.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://chaosanswers.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/chaos-answers-app.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://chaosanswers.com/" target="_blank">
-								<h4>Chaos Answers</h4>
-							</a>
-							<a href="https://play.google.com/store/apps/details?id=hawaiitass.android.steinwallmodel&hl=en" target="_blank"><i class="download-icon fa fa-android"></i></a>
-							<a href="http://www.windowsphone.com/en-us/store/app/chaos-models/a24b2fad-eee9-4ba5-b875-d5d35f864b68" target="_blank"><i class="download-icon fa fa-windows"></i></a>
-							<p>
-								Chaos Answers app helps managers know how to adapt their view of changing circumstances quickly and effectively. Our team developed the Android and Windows Phone app.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://www.steinwall.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/steinwall-pimm.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://www.steinwall.com/" target="_blank">
-								<h4>Steinwall PIMM iPad App</h4>
-							</a>
-							<a href="https://itunes.apple.com/us/app/pimm-app/id640015509?mt=8" target="_blank"><i class="download-icon fa fa-apple"></i></a>
-							<p>
-								This app plays PIMMs, Production Instructions Multi Media, which are video versions of instruction manuals for parts being produced at Steinwall Incorporated. We developed the iPad app.
-							</p>
-						</div>
-					</li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div><!-- /.row -->
@@ -412,103 +355,35 @@ nav: index
 			</div>
 		</div>
 		<div id="web-slides-nav" class="row">
-			<div class="col-sm-6 col-md-3 text-center">
+			{% for project in site.data.web_projects %}
+			<div class="col-sm-6 col-md-3 text-center" style="min-height: 200px;">
 				<div class="nav-item">
-					<img src="{{ "/assets/images/c3bctrack.png" | prepend: site.baseurl }}" alt="C3BC Track" height="100" width="100" />
-					<h4>C3bc Career Pathway Tracking System</h4>
+					<img src="{{ project.thumb | prepend: site.baseurl }}" alt="{{ project.title }}" style="padding: 5px 0; max-height: 144px; {{ project.thumb_style }}" />
+					<h4>{{ project.title }}</h4>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item">
-					<img src="{{ "/assets/images/biomanufacturing.png" | prepend: site.baseurl }}" alt="Biomanufacturing.org" height="100" width="174" />
-					<h4>Biomanufacturing.org</h4>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item">
-					<img src="{{ "/assets/images/tasstel.png" | prepend: site.baseurl }}" alt="TassTel" style="padding: 25px 0;" />
-					<h4>Tass Tel, Inc.</h4>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item">
-					<img src="{{ "/assets/images/chaos-answers.png" | prepend: site.baseurl }}" alt="Chaos Answers" height="100" width="100" />
-					<h4>Chaos Answers</h4>
-				</div>
-			</div>
-			<!--<div class="col-sm-6 col-md-3 text-center">
-				<div class="nav-item">
-					<a href="http://greenpowersolutionsllc.com/" target="_blank">
-						<img src="{{ "/assets/images/greenpower.jpg" | prepend: site.baseurl }}" alt="Greenpower Solutions" height="100" width="68" />
-						<h4>Greenpower Solutions</h4>
-					</a>
-					<p>This company’s mission is to bring Practical, Affordable and Reliable Renewable Energy Solutions to Hawaii’s energy consumers. We have developed this web portal, and we continue to manage the database, users, content, and security & analytics of the portal.</p>
-				</div>
-			</div>-->
+			{% endfor %}
 		</div>
 		<div class="row">
 			<div id="web-slides" class="flexslider">
 				<ul class="slides">
+					{% for project in site.data.web_projects %}
 					<li>
 						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://c3bctrack.org/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/c3bctrack.jpg" | prepend: site.baseurl }}">
+							<a href="{{ project.link }}" target="_blank">
+								<img src="{{ project.img | prepend: site.baseurl }}">
 							</a>
 						</div>
 						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://c3bctrack.org/" target="_blank">
-								<h4>C3bc Career Pathway Tracking System</h4>
+							<a href="{{ project.link }}" target="_blank">
+								<h4>{{ project.title }}</h4>
 							</a>
 							<p>
-								The purpose of the c3bc participants' Career Pathway tracking portal is to serve as an internet gateway, repository, and distributor of information of those individuals engaged in educational and industrial activities across the greater c3bc.
+								{{ project.description }}
 							</p>
 						</div>
 					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://www.biomanufacturing.org" target="_blank">
-								<img src="{{ "/assets/images/screenshots/biomanufacturing.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://www.biomanufacturing.org" target="_blank">
-								<h4>Biomanufacturing.org</h4>
-							</a>
-							<p>
-								This is a National Science Foundation (NSF) funded project. The mission of this project is to coordinate local and regional efforts into a national Biomanufacturing education and training system to promote, create, and sustain a qualified workforce. We have completely re-designed this Web portal using Drupal 7 technology. We re-structured the content and provided a new database structure, enabling greater flexibility and efficiency in maintaining and disseminating the valuable information. We provide support and maintenance of the web portal, including user training, analytics reports, and web security updates.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://www.tasstel.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/tasstel.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://www.tasstel.com/" target="_blank">
-								<h4>Tass Tel, Inc.</h4>
-							</a>
-							<p>
-								Tass Tel, Inc. is a USA carrier of international voice traffic. Tass Tel services include VoIP Carrier Service, VOIP wholesale, Prepaid Calling Card, Software Development, Hosted VOIP billing rental for prepaid calling card business.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="col-sm-12 col-md-8 text-center">
-							<a href="http://chaosanswers.com/" target="_blank">
-								<img src="{{ "/assets/images/screenshots/chaos-answers.jpg" | prepend: site.baseurl }}">
-							</a>
-						</div>
-						<div class="col-sm-12 col-md-4 text-center">
-							<a href="http://chaosanswers.com/" target="_blank">
-								<h4>Chaos Answers</h4>
-							</a>
-							<p>
-								Chaos Answers helps managers know how to adapt their view of changing circumstances quickly and effectively. We have developed this web portal in conjunction with the mobile apps that we developed for the same company. We created and continue to manage the database, users, content, and security &amp; analytics of the portal.
-							</p>
-						</div>
-					</li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div>
