@@ -1,115 +1,76 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    blankslate (2.1.2.4)
-    celluloid (0.17.1.2)
-      bundler
-      celluloid-essentials
-      celluloid-extras
-      celluloid-fsm
-      celluloid-pool
-      celluloid-supervision
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    celluloid-essentials (0.20.2.1)
-      bundler
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    celluloid-extras (0.20.1)
-      bundler
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    celluloid-fsm (0.20.1)
-      bundler
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    celluloid-pool (0.20.1)
-      bundler
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    celluloid-supervision (0.20.1.1)
-      bundler
-      dotenv
-      nenv
-      rspec-logsplit (>= 0.1.2)
-      timers (>= 4.1.1)
-    classifier-reborn (2.0.3)
-      fast-stemmer (~> 1.0)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.9.1.1)
-    colorator (0.1)
-    dotenv (2.0.2)
-    execjs (2.6.0)
-    fast-stemmer (1.0.2)
-    ffi (1.9.10-x86-mingw32)
-    hitimes (1.2.2)
-    jekyll (2.5.3)
-      classifier-reborn (~> 2.0)
-      colorator (~> 0.1)
-      jekyll-coffeescript (~> 1.0)
-      jekyll-gist (~> 1.0)
-      jekyll-paginate (~> 1.0)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 2.6.1)
-      mercenary (~> 0.3.3)
-      pygments.rb (~> 0.6.0)
-      redcarpet (~> 3.1)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    chunky_png (1.4.0)
+    colorator (1.1.0)
+    compass (0.12.7)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.2.19)
+    concurrent-ruby (1.1.9)
+    em-websocket (0.5.2)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.15.4-x64-mingw32)
+    forwardable-extended (2.6.0)
+    fssm (0.2.10)
+    http_parser.rb (0.6.0)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
+    jekyll (4.2.1)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (~> 2.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.3)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (~> 0.4.0)
+      pathutil (~> 0.9)
+      rouge (~> 3.0)
       safe_yaml (~> 1.0)
-      toml (~> 0.1.0)
-    jekyll-coffeescript (1.0.1)
-      coffee-script (~> 2.2)
-    jekyll-gist (1.3.4)
-    jekyll-paginate (1.1.0)
-    jekyll-sass-converter (1.3.0)
-      sass (~> 3.2)
-    jekyll-watch (1.2.1)
-      listen (~> 2.7)
-    kramdown (1.8.0)
-    liquid (2.6.1)
-    listen (2.7.9)
-      celluloid (>= 0.15.2)
-      rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9)
-    mercenary (0.3.5)
-    nenv (0.2.0)
-    parslet (1.5.0)
-      blankslate (~> 2.0)
-    posix-spawn (0.3.11)
-    pygments.rb (0.6.0)
-      posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.1.0)
-    rb-fsevent (0.9.5)
-    rb-inotify (0.9.5)
-      ffi (>= 0.5.0)
-    redcarpet (3.1.2)
-    rspec-logsplit (0.1.3)
-    safe_yaml (1.0.4)
-    sass (3.4.18)
-    timers (4.1.1)
-      hitimes
-    toml (0.1.2)
-      parslet (~> 1.5.0)
-    yajl-ruby (1.1.0-x86-mingw32)
+      terminal-table (~> 2.0)
+    jekyll-sass-converter (2.1.0)
+      sassc (> 2.0.1, < 3.0)
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
+    kramdown (2.3.1)
+      rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    liquid (4.0.3)
+    listen (3.7.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    mercenary (0.4.0)
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    public_suffix (4.0.6)
+    rb-fsevent (0.11.0)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rexml (3.2.5)
+    rouge (3.26.1)
+    safe_yaml (1.0.5)
+    sass (3.2.19)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
+    terminal-table (2.0.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    unicode-display_width (1.8.0)
 
 PLATFORMS
-  x86-mingw32
+  x64-mingw32
 
 DEPENDENCIES
+  compass (< 0.17.0)
   jekyll
+  kramdown
 
 BUNDLED WITH
-   1.10.6
+   2.1.4

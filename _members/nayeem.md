@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Nayeem Ahmad"
 job_title: "GUI Designer and Apps Developer"
 email: "Nayeem@TASSUSA.com"

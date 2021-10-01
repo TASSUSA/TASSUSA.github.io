@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Abu Shufean"
 job_title: "Software Engineer"
 email: "Abu@TASSUSA.com"

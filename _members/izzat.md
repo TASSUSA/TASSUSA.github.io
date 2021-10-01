@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 1
+order: 1
 real_name: "Dr. Izzat Alsmadi"
 job_title: "Director, Cybersecurity"
 email: "Izzat@TASSUSA.com"

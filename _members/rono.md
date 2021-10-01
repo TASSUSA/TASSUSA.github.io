@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Syed (Rono) Ahmed"
 job_title: "Senior Software Engineer"
 email: "Rono@TASSUSA.com"

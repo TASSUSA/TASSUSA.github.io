@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Monir Zaman"
 job_title: "CPA and Lead Accountant"
 email: "Monir@TASSUSA.com"

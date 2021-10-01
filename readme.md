@@ -1,8 +1,8 @@
 ### Installation
 
-- Install [Vagrant](https://www.vagrantup.com/downloads)
+https://jekyllrb.com/docs/step-by-step/01-setup/
 
 
 ### Usage
 
-Run `vagrant up` in the root of the repository
+Run `jekyll serve`

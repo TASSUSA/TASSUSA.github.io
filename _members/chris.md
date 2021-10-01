@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 2
+order: 2
 real_name: "Christopher Nelson"
 job_title: "Game Developer"
 email: "Chris@TASSUSA.com"

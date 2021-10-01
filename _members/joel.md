@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 2
+order: 2
 real_name: "Joel Cook"
 job_title: "Software Engineer, Cybersecurity Analyst"
 email: "Joel@TASSUSA.com"

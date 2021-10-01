@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Saiful (Saki) Islam"
 job_title: "Senior Programmer"
 email: "Saki@TASSUSA.com"

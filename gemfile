@@ -1,7 +1,11 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll'
-gem 'listen', '<2.10.0'
+# gem 'listen', '<2.10.0'
 gem 'compass', '<0.17.0'
 gem 'kramdown'
 # gem 'coderay'

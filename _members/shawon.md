@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 0
+order: 0
 real_name: "Dr. Shawon Rahman"
 job_title: "Founder &amp; President"
 email: "Rahman@TASSUSA.com"

@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Yanara Caez"
 job_title: "Game Developer & Graphics Designer"
 email: "Yanara@TASSUSA.com"

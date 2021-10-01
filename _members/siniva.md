@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Siniva Pota"
 job_title: "Accounting and Marketing Manager"
 email: "Siniva@TASSUSA.com"

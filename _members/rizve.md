@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 3
+order: 3
 real_name: "Rizve Hasan"
 job_title: "Marketing Consultant"
 email: "Rizve@TASSUSA.com"

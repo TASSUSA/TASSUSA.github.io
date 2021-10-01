@@ -1,6 +1,6 @@
 ---
 layout: member
-sort: 1
+order: 1
 real_name: "Andrew Wessels"
 job_title: "Software Engineer, Lead Web Developer"
 email: "Andrew@TASSUSA.com"
